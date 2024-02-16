@@ -8,18 +8,15 @@ Project inspired on [GitHub's VS Code theme](https://github.com/primer/github-vs
 
 ## Installation
 
-Download [github-theme.json](https://raw.githubusercontent.com/PyaeSoneAungRgn/github-zed-theme/main/github-theme.json)
-
-Copy `github-theme.json` file to `~/.config/zed/themes` folder
-```bash
-cp github-theme.json ~/.config/zed/themes/github-theme.json
-```
+1. Open `Command Palette`
+2. Select `zed: extensions`
+3. Search `GitHub Theme`
 
 ## Activate Theme
 
 1. Open `Command Palette`
 2. Select `theme selector: toggle`
-3. Search `Github Light` or `Github Dark`
+3. Search `GitHub Light` or `GitHub Dark`
 
 ## Contributing
 

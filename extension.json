@@ -1,0 +1,9 @@
+{
+  "name": "GitHub Theme",
+  "version": "0.0.1",
+  "authors": [
+    "PyaeSoneAungRgn <pyaesoneaung.code@gmail.com>"
+  ],
+  "description": "GitHub theme for Zed",
+  "repository": "https://github.com/PyaeSoneAungRgn/github-zed-theme"
+}
