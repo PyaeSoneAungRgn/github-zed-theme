@@ -413,7 +413,7 @@
         "icon.accent": "#74ade8ff",
         "status_bar.background": "#24292eff",
         "title_bar.background": "#24292eff",
-        "toolbar.background": "#1f2428ff",
+        "toolbar.background": "#24292eff",
         "tab_bar.background": "#1f2428ff",
         "tab.inactive_background": "#1f2428ff",
         "tab.active_background": "#24292eff",
