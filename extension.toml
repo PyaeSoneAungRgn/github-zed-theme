@@ -1,0 +1,7 @@
+id = "github-theme"
+name = "Github Theme"
+version = "0.0.3"
+schema_version = 1
+authors = ["Pyae Sone Aung <pyaesoneaungrgn@gmail.com>", "Clay Tercek"]
+description = "GitHub themes for Zed"
+repository = "https://github.com/PyaeSoneAungRgn/github-zed-theme"
