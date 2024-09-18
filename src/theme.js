@@ -226,7 +226,7 @@ export function getTheme({ themeKey, name, type }) {
           "font_weight": null
         },
         "constructor": {
-          "color": lightDark("base/color/orange/6", "base/color/orange/2"),
+          "color": lightDark("base/color/blue/6", "base/color/blue/2"),
           "font_style": null,
           "font_weight": null
         },

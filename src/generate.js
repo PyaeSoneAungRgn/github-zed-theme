@@ -6,11 +6,11 @@ const writeData = {
   "name": "Github Theme",
   "author": "Pyae Sone Aung",
   "themes": [
-    getTheme({ themeKey: 'light', name: "Github Light Default", type: 'light' }),
+    getTheme({ themeKey: 'light', name: "Github Light", type: 'light' }),
     getTheme({ themeKey: 'light_colorblind', name: "Github Light Colorblind", type: 'light' }),
     getTheme({ themeKey: 'light_high_contrast', name: "Github Light High Contrast", type: 'light' }),
     getTheme({ themeKey: 'light_tritanopia', name: "Github Light Tritanopia", type: 'light' }),
-    getTheme({ themeKey: 'dark', name: "Github Dark Default", type: 'dark' }),
+    getTheme({ themeKey: 'dark', name: "Github Dark", type: 'dark' }),
     getTheme({ themeKey: 'dark_colorblind', name: "Github Dark Colorblind", type: 'dark' }),
     getTheme({ themeKey: 'dark_high_contrast', name: "Github Dark High Contrast", type: 'dark' }),
     getTheme({ themeKey: 'dark_tritanopia', name: "Github Dark Tritanopia", type: 'dark' }),
