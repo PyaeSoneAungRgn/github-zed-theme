@@ -1,0 +1,15 @@
+{
+  "name": "github-zed-theme-generator",
+  "version": "0.0.1",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch src/generate",
+    "build": "node src/generate"
+  },
+  "devDependencies": {
+    "@primer/primitives": "^9.1.1",
+    "@types/node": "^20.14.6",
+    "typescript": "^5.4.5"
+  }
+}
