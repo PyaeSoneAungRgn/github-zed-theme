@@ -266,7 +266,7 @@ export function getTheme({ themeKey, name, type }) {
           "font_weight": null
         },
         "hint": {
-          "color": "fgColor/muted",
+          "color": tokens["fgColor/muted"],
           "font_style": null,
           "font_weight": 700
         },
@@ -296,12 +296,12 @@ export function getTheme({ themeKey, name, type }) {
           "font_weight": null
         },
         "operator": {
-          "color": "fgColor/default",
+          "color": tokens["fgColor/default"],
           "font_style": null,
           "font_weight": null
         },
         "predictive": {
-          "color": "fgColor/placeholder",
+          "color": tokens["fgColor/placeholder"],
           "font_style": "italic",
           "font_weight": null
         },
@@ -311,7 +311,7 @@ export function getTheme({ themeKey, name, type }) {
           "font_weight": null
         },
         "primary": {
-          "color": "fgColor/default",
+          "color": tokens["fgColor/default"],
           "font_style": null,
           "font_weight": null
         },
@@ -321,17 +321,17 @@ export function getTheme({ themeKey, name, type }) {
           "font_weight": null
         },
         "punctuation": {
-          "color": "fgColor/default",
+          "color": tokens["fgColor/default"],
           "font_style": null,
           "font_weight": null
         },
         "punctuation.bracket": {
-          "color": "fgColor/default",
+          "color": tokens["fgColor/default"],
           "font_style": null,
           "font_weight": null
         },
         "punctuation.delimiter": {
-          "color": "fgColor/default",
+          "color": tokens["fgColor/default"],
           "font_style": null,
           "font_weight": null
         },
