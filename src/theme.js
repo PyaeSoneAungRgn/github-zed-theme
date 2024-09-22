@@ -391,7 +391,7 @@ export function getTheme({ themeKey, name, type }) {
           "font_weight": null
         },
         "variable": {
-          "color": lightDark("base/color/orange/6", "base/color/orange/2"),
+          "color": tokens["fgColor/default"],
           "font_style": null,
           "font_weight": null
         },
