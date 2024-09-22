@@ -4,7 +4,6 @@
   "author": "Pyae Sone Aung",
   "themes": [
     {
-      "$schema": "https://zed.dev/schema/themes/v0.1.0.json",
       "appearance": "light",
       "name": "Github Light",
       "style": {
@@ -29,8 +28,8 @@
         "editor.active_line_number": "#1f2328ff",
         "editor.active_wrap_guide": "#d1d9e0b3",
         "editor.background": "#ffffffff",
-        "editor.document_highlight.read_background": "#ddf4ffff",
-        "editor.document_highlight.write_background": "#0969daff",
+        "editor.document_highlight.read_background": "#0969da4d",
+        "editor.document_highlight.write_background": "#0969da33",
         "editor.foreground": "#1f2328ff",
         "editor.gutter.background": "#ffffffff",
         "editor.highlighted_line.background": "#818b981f",
@@ -86,7 +85,7 @@
         "scrollbar.thumb.hover_background": "#f6f8faff",
         "scrollbar.track.background": "#ffffff00",
         "scrollbar.track.border": "#ffffff00",
-        "search.match_background": "#fff8c5ff",
+        "search.match_background": "#fae17d4d",
         "status_bar.background": "#f6f8faff",
         "success": "#1a7f37ff",
         "success.background": "#dafbe1ff",
@@ -137,36 +136,44 @@
         "warning.border": "#d1d9e0b3",
         "players": [
           {
-            "background": "#d1f0ffff",
-            "border": "#d1f0ffff"
+            "cursor": "#006edbff",
+            "background": "#006edbff",
+            "selection": "#006edb66"
           },
           {
-            "background": "#ffe7d1ff",
-            "border": "#ffe7d1ff"
+            "cursor": "#eb670fff",
+            "background": "#eb670fff",
+            "selection": "#eb670f66"
           },
           {
-            "background": "#ffe5f1ff",
-            "border": "#ffe5f1ff"
+            "cursor": "#ce2c85ff",
+            "background": "#ce2c85ff",
+            "selection": "#ce2c8566"
           },
           {
-            "background": "#caf7caff",
-            "border": "#caf7caff"
+            "cursor": "#30a147ff",
+            "background": "#30a147ff",
+            "selection": "#30a14766"
           },
           {
-            "background": "#f1e5ffff",
-            "border": "#f1e5ffff"
+            "cursor": "#894cebff",
+            "background": "#894cebff",
+            "selection": "#894ceb66"
           },
           {
-            "background": "#ffec9eff",
-            "border": "#ffec9eff"
+            "cursor": "#b88700ff",
+            "background": "#b88700ff",
+            "selection": "#b8870066"
           },
           {
-            "background": "#c7f5efff",
-            "border": "#c7f5efff"
+            "cursor": "#179b9bff",
+            "background": "#179b9bff",
+            "selection": "#179b9b66"
           },
           {
-            "background": "#ffe2e0ff",
-            "border": "#ffe2e0ff"
+            "cursor": "#df0c24ff",
+            "background": "#df0c24ff",
+            "selection": "#df0c2466"
           }
         ],
         "syntax": {
@@ -321,8 +328,8 @@
           },
           "string.escape": {
             "color": "#116329ff",
-            "font_style": "bold",
-            "font_weight": null
+            "font_style": null,
+            "font_weight": 700
           },
           "string.regex": {
             "color": "#0a3069ff",
@@ -378,7 +385,6 @@
       }
     },
     {
-      "$schema": "https://zed.dev/schema/themes/v0.1.0.json",
       "appearance": "light",
       "name": "Github Light Colorblind",
       "style": {
@@ -403,8 +409,8 @@
         "editor.active_line_number": "#1f2328ff",
         "editor.active_wrap_guide": "#d1d9e0b3",
         "editor.background": "#ffffffff",
-        "editor.document_highlight.read_background": "#ddf4ffff",
-        "editor.document_highlight.write_background": "#0969daff",
+        "editor.document_highlight.read_background": "#0969da4d",
+        "editor.document_highlight.write_background": "#0969da33",
         "editor.foreground": "#1f2328ff",
         "editor.gutter.background": "#ffffffff",
         "editor.highlighted_line.background": "#818b981f",
@@ -460,7 +466,7 @@
         "scrollbar.thumb.hover_background": "#f6f8faff",
         "scrollbar.track.background": "#ffffff00",
         "scrollbar.track.border": "#ffffff00",
-        "search.match_background": "#fff8c5ff",
+        "search.match_background": "#fae17d4d",
         "status_bar.background": "#f6f8faff",
         "success": "#0969daff",
         "success.background": "#ddf4ffff",
@@ -511,36 +517,44 @@
         "warning.border": "#d1d9e0b3",
         "players": [
           {
-            "background": "#d1f0ffff",
-            "border": "#d1f0ffff"
+            "cursor": "#006edbff",
+            "background": "#006edbff",
+            "selection": "#006edb66"
           },
           {
-            "background": "#ffe7d1ff",
-            "border": "#ffe7d1ff"
+            "cursor": "#eb670fff",
+            "background": "#eb670fff",
+            "selection": "#eb670f66"
           },
           {
-            "background": "#ffe5f1ff",
-            "border": "#ffe5f1ff"
+            "cursor": "#ce2c85ff",
+            "background": "#ce2c85ff",
+            "selection": "#ce2c8566"
           },
           {
-            "background": "#caf7caff",
-            "border": "#caf7caff"
+            "cursor": "#30a147ff",
+            "background": "#30a147ff",
+            "selection": "#30a14766"
           },
           {
-            "background": "#f1e5ffff",
-            "border": "#f1e5ffff"
+            "cursor": "#894cebff",
+            "background": "#894cebff",
+            "selection": "#894ceb66"
           },
           {
-            "background": "#ffec9eff",
-            "border": "#ffec9eff"
+            "cursor": "#b88700ff",
+            "background": "#b88700ff",
+            "selection": "#b8870066"
           },
           {
-            "background": "#c7f5efff",
-            "border": "#c7f5efff"
+            "cursor": "#179b9bff",
+            "background": "#179b9bff",
+            "selection": "#179b9b66"
           },
           {
-            "background": "#ffe2e0ff",
-            "border": "#ffe2e0ff"
+            "cursor": "#df0c24ff",
+            "background": "#df0c24ff",
+            "selection": "#df0c2466"
           }
         ],
         "syntax": {
@@ -695,8 +709,8 @@
           },
           "string.escape": {
             "color": "#116329ff",
-            "font_style": "bold",
-            "font_weight": null
+            "font_style": null,
+            "font_weight": 700
           },
           "string.regex": {
             "color": "#0a3069ff",
@@ -752,7 +766,6 @@
       }
     },
     {
-      "$schema": "https://zed.dev/schema/themes/v0.1.0.json",
       "appearance": "light",
       "name": "Github Light High Contrast",
       "style": {
@@ -777,8 +790,8 @@
         "editor.active_line_number": "#010409ff",
         "editor.active_wrap_guide": "#454c54ff",
         "editor.background": "#ffffffff",
-        "editor.document_highlight.read_background": "#dff7ffff",
-        "editor.document_highlight.write_background": "#0349b4ff",
+        "editor.document_highlight.read_background": "#023b954d",
+        "editor.document_highlight.write_background": "#023b9533",
         "editor.foreground": "#010409ff",
         "editor.gutter.background": "#ffffffff",
         "editor.highlighted_line.background": "#e0e6ebff",
@@ -834,7 +847,7 @@
         "scrollbar.thumb.hover_background": "#e6eaefff",
         "scrollbar.track.background": "#ffffff00",
         "scrollbar.track.border": "#ffffff00",
-        "search.match_background": "#fcf7beff",
+        "search.match_background": "#f0ce534d",
         "status_bar.background": "#eff2f5ff",
         "success": "#024c1aff",
         "success.background": "#d2fedbff",
@@ -885,36 +898,44 @@
         "warning.border": "#454c54ff",
         "players": [
           {
-            "background": "#d1f0ffff",
-            "border": "#d1f0ffff"
+            "cursor": "#006edbff",
+            "background": "#006edbff",
+            "selection": "#006edb66"
           },
           {
-            "background": "#ffe7d1ff",
-            "border": "#ffe7d1ff"
+            "cursor": "#eb670fff",
+            "background": "#eb670fff",
+            "selection": "#eb670f66"
           },
           {
-            "background": "#ffe5f1ff",
-            "border": "#ffe5f1ff"
+            "cursor": "#ce2c85ff",
+            "background": "#ce2c85ff",
+            "selection": "#ce2c8566"
           },
           {
-            "background": "#caf7caff",
-            "border": "#caf7caff"
+            "cursor": "#30a147ff",
+            "background": "#30a147ff",
+            "selection": "#30a14766"
           },
           {
-            "background": "#f1e5ffff",
-            "border": "#f1e5ffff"
+            "cursor": "#894cebff",
+            "background": "#894cebff",
+            "selection": "#894ceb66"
           },
           {
-            "background": "#ffec9eff",
-            "border": "#ffec9eff"
+            "cursor": "#b88700ff",
+            "background": "#b88700ff",
+            "selection": "#b8870066"
           },
           {
-            "background": "#c7f5efff",
-            "border": "#c7f5efff"
+            "cursor": "#179b9bff",
+            "background": "#179b9bff",
+            "selection": "#179b9b66"
           },
           {
-            "background": "#ffe2e0ff",
-            "border": "#ffe2e0ff"
+            "cursor": "#df0c24ff",
+            "background": "#df0c24ff",
+            "selection": "#df0c2466"
           }
         ],
         "syntax": {
@@ -1069,8 +1090,8 @@
           },
           "string.escape": {
             "color": "#024c1aff",
-            "font_style": "bold",
-            "font_weight": null
+            "font_style": null,
+            "font_weight": 700
           },
           "string.regex": {
             "color": "#032563ff",
@@ -1126,7 +1147,6 @@
       }
     },
     {
-      "$schema": "https://zed.dev/schema/themes/v0.1.0.json",
       "appearance": "light",
       "name": "Github Light Tritanopia",
       "style": {
@@ -1151,8 +1171,8 @@
         "editor.active_line_number": "#1f2328ff",
         "editor.active_wrap_guide": "#d1d9e0b3",
         "editor.background": "#ffffffff",
-        "editor.document_highlight.read_background": "#ddf4ffff",
-        "editor.document_highlight.write_background": "#0969daff",
+        "editor.document_highlight.read_background": "#0969da4d",
+        "editor.document_highlight.write_background": "#0969da33",
         "editor.foreground": "#1f2328ff",
         "editor.gutter.background": "#ffffffff",
         "editor.highlighted_line.background": "#818b981f",
@@ -1208,7 +1228,7 @@
         "scrollbar.thumb.hover_background": "#f6f8faff",
         "scrollbar.track.background": "#ffffff00",
         "scrollbar.track.border": "#ffffff00",
-        "search.match_background": "#fff8c5ff",
+        "search.match_background": "#fae17d4d",
         "status_bar.background": "#f6f8faff",
         "success": "#0969daff",
         "success.background": "#ddf4ffff",
@@ -1259,36 +1279,44 @@
         "warning.border": "#d1d9e0b3",
         "players": [
           {
-            "background": "#d1f0ffff",
-            "border": "#d1f0ffff"
+            "cursor": "#006edbff",
+            "background": "#006edbff",
+            "selection": "#006edb66"
           },
           {
-            "background": "#ffe7d1ff",
-            "border": "#ffe7d1ff"
+            "cursor": "#eb670fff",
+            "background": "#eb670fff",
+            "selection": "#eb670f66"
           },
           {
-            "background": "#ffe5f1ff",
-            "border": "#ffe5f1ff"
+            "cursor": "#ce2c85ff",
+            "background": "#ce2c85ff",
+            "selection": "#ce2c8566"
           },
           {
-            "background": "#caf7caff",
-            "border": "#caf7caff"
+            "cursor": "#30a147ff",
+            "background": "#30a147ff",
+            "selection": "#30a14766"
           },
           {
-            "background": "#f1e5ffff",
-            "border": "#f1e5ffff"
+            "cursor": "#894cebff",
+            "background": "#894cebff",
+            "selection": "#894ceb66"
           },
           {
-            "background": "#ffec9eff",
-            "border": "#ffec9eff"
+            "cursor": "#b88700ff",
+            "background": "#b88700ff",
+            "selection": "#b8870066"
           },
           {
-            "background": "#c7f5efff",
-            "border": "#c7f5efff"
+            "cursor": "#179b9bff",
+            "background": "#179b9bff",
+            "selection": "#179b9b66"
           },
           {
-            "background": "#ffe2e0ff",
-            "border": "#ffe2e0ff"
+            "cursor": "#df0c24ff",
+            "background": "#df0c24ff",
+            "selection": "#df0c2466"
           }
         ],
         "syntax": {
@@ -1443,8 +1471,8 @@
           },
           "string.escape": {
             "color": "#116329ff",
-            "font_style": "bold",
-            "font_weight": null
+            "font_style": null,
+            "font_weight": 700
           },
           "string.regex": {
             "color": "#0a3069ff",
@@ -1500,7 +1528,6 @@
       }
     },
     {
-      "$schema": "https://zed.dev/schema/themes/v0.1.0.json",
       "appearance": "dark",
       "name": "Github Dark",
       "style": {
@@ -1525,8 +1552,8 @@
         "editor.active_line_number": "#f0f6fcff",
         "editor.active_wrap_guide": "#3d444db3",
         "editor.background": "#0d1117ff",
-        "editor.document_highlight.read_background": "#388bfd1a",
-        "editor.document_highlight.write_background": "#1f6febff",
+        "editor.document_highlight.read_background": "#4493f84d",
+        "editor.document_highlight.write_background": "#4493f833",
         "editor.foreground": "#f0f6fcff",
         "editor.gutter.background": "#0d1117ff",
         "editor.highlighted_line.background": "#656c7633",
@@ -1582,7 +1609,7 @@
         "scrollbar.thumb.hover_background": "#151b23ff",
         "scrollbar.track.background": "#00000000",
         "scrollbar.track.border": "#00000000",
-        "search.match_background": "#bb800926",
+        "search.match_background": "#f2cc604d",
         "status_bar.background": "#010409ff",
         "success": "#3fb950ff",
         "success.background": "#2ea04326",
@@ -1633,36 +1660,44 @@
         "warning.border": "#3d444db3",
         "players": [
           {
-            "background": "#001a47ff",
-            "border": "#001a47ff"
+            "cursor": "#0576ffff",
+            "background": "#0576ffff",
+            "selection": "#0576ff66"
           },
           {
-            "background": "#311708ff",
-            "border": "#311708ff"
+            "cursor": "#984b10ff",
+            "background": "#984b10ff",
+            "selection": "#984b1066"
           },
           {
-            "background": "#2d1524ff",
-            "border": "#2d1524ff"
+            "cursor": "#d34591ff",
+            "background": "#d34591ff",
+            "selection": "#d3459166"
           },
           {
-            "background": "#122117ff",
-            "border": "#122117ff"
+            "cursor": "#2f6f37ff",
+            "background": "#2f6f37ff",
+            "selection": "#2f6f3766"
           },
           {
-            "background": "#211047ff",
-            "border": "#211047ff"
+            "cursor": "#975bf1ff",
+            "background": "#975bf1ff",
+            "selection": "#975bf166"
           },
           {
-            "background": "#2e1a00ff",
-            "border": "#2e1a00ff"
+            "cursor": "#895906ff",
+            "background": "#895906ff",
+            "selection": "#89590666"
           },
           {
-            "background": "#041f25ff",
-            "border": "#041f25ff"
+            "cursor": "#106c70ff",
+            "background": "#106c70ff",
+            "selection": "#106c7066"
           },
           {
-            "background": "#3c0614ff",
-            "border": "#3c0614ff"
+            "cursor": "#eb3342ff",
+            "background": "#eb3342ff",
+            "selection": "#eb334266"
           }
         ],
         "syntax": {
@@ -1817,8 +1852,8 @@
           },
           "string.escape": {
             "color": "#7ee787ff",
-            "font_style": "bold",
-            "font_weight": null
+            "font_style": null,
+            "font_weight": 700
           },
           "string.regex": {
             "color": "#a5d6ffff",
@@ -1874,7 +1909,6 @@
       }
     },
     {
-      "$schema": "https://zed.dev/schema/themes/v0.1.0.json",
       "appearance": "dark",
       "name": "Github Dark Colorblind",
       "style": {
@@ -1899,8 +1933,8 @@
         "editor.active_line_number": "#f0f6fcff",
         "editor.active_wrap_guide": "#3d444db3",
         "editor.background": "#0d1117ff",
-        "editor.document_highlight.read_background": "#388bfd1a",
-        "editor.document_highlight.write_background": "#1f6febff",
+        "editor.document_highlight.read_background": "#4493f84d",
+        "editor.document_highlight.write_background": "#4493f833",
         "editor.foreground": "#f0f6fcff",
         "editor.gutter.background": "#0d1117ff",
         "editor.highlighted_line.background": "#656c7633",
@@ -1956,7 +1990,7 @@
         "scrollbar.thumb.hover_background": "#151b23ff",
         "scrollbar.track.background": "#00000000",
         "scrollbar.track.border": "#00000000",
-        "search.match_background": "#bb800926",
+        "search.match_background": "#f2cc604d",
         "status_bar.background": "#010409ff",
         "success": "#58a6ffff",
         "success.background": "#388bfd26",
@@ -2007,36 +2041,44 @@
         "warning.border": "#3d444db3",
         "players": [
           {
-            "background": "#001a47ff",
-            "border": "#001a47ff"
+            "cursor": "#0576ffff",
+            "background": "#0576ffff",
+            "selection": "#0576ff66"
           },
           {
-            "background": "#311708ff",
-            "border": "#311708ff"
+            "cursor": "#984b10ff",
+            "background": "#984b10ff",
+            "selection": "#984b1066"
           },
           {
-            "background": "#2d1524ff",
-            "border": "#2d1524ff"
+            "cursor": "#d34591ff",
+            "background": "#d34591ff",
+            "selection": "#d3459166"
           },
           {
-            "background": "#122117ff",
-            "border": "#122117ff"
+            "cursor": "#2f6f37ff",
+            "background": "#2f6f37ff",
+            "selection": "#2f6f3766"
           },
           {
-            "background": "#211047ff",
-            "border": "#211047ff"
+            "cursor": "#975bf1ff",
+            "background": "#975bf1ff",
+            "selection": "#975bf166"
           },
           {
-            "background": "#2e1a00ff",
-            "border": "#2e1a00ff"
+            "cursor": "#895906ff",
+            "background": "#895906ff",
+            "selection": "#89590666"
           },
           {
-            "background": "#041f25ff",
-            "border": "#041f25ff"
+            "cursor": "#106c70ff",
+            "background": "#106c70ff",
+            "selection": "#106c7066"
           },
           {
-            "background": "#3c0614ff",
-            "border": "#3c0614ff"
+            "cursor": "#eb3342ff",
+            "background": "#eb3342ff",
+            "selection": "#eb334266"
           }
         ],
         "syntax": {
@@ -2191,8 +2233,8 @@
           },
           "string.escape": {
             "color": "#7ee787ff",
-            "font_style": "bold",
-            "font_weight": null
+            "font_style": null,
+            "font_weight": 700
           },
           "string.regex": {
             "color": "#a5d6ffff",
@@ -2248,7 +2290,6 @@
       }
     },
     {
-      "$schema": "https://zed.dev/schema/themes/v0.1.0.json",
       "appearance": "dark",
       "name": "Github Dark High Contrast",
       "style": {
@@ -2273,8 +2314,8 @@
         "editor.active_line_number": "#ffffffff",
         "editor.active_wrap_guide": "#b7bdc8ff",
         "editor.background": "#010409ff",
-        "editor.document_highlight.read_background": "#5cacff1a",
-        "editor.document_highlight.write_background": "#194fb1ff",
+        "editor.document_highlight.read_background": "#74b9ff4d",
+        "editor.document_highlight.write_background": "#74b9ff33",
         "editor.foreground": "#ffffffff",
         "editor.gutter.background": "#010409ff",
         "editor.highlighted_line.background": "#212830ff",
@@ -2330,7 +2371,7 @@
         "scrollbar.thumb.hover_background": "#151b23ff",
         "scrollbar.track.background": "#00000000",
         "scrollbar.track.border": "#00000000",
-        "search.match_background": "#edaa2726",
+        "search.match_background": "#fbd6694d",
         "status_bar.background": "#010409ff",
         "success": "#2bd853ff",
         "success.background": "#0ac74026",
@@ -2381,36 +2422,44 @@
         "warning.border": "#b7bdc8ff",
         "players": [
           {
-            "background": "#001a47ff",
-            "border": "#001a47ff"
+            "cursor": "#0576ffff",
+            "background": "#0576ffff",
+            "selection": "#0576ff66"
           },
           {
-            "background": "#311708ff",
-            "border": "#311708ff"
+            "cursor": "#984b10ff",
+            "background": "#984b10ff",
+            "selection": "#984b1066"
           },
           {
-            "background": "#2d1524ff",
-            "border": "#2d1524ff"
+            "cursor": "#d34591ff",
+            "background": "#d34591ff",
+            "selection": "#d3459166"
           },
           {
-            "background": "#122117ff",
-            "border": "#122117ff"
+            "cursor": "#2f6f37ff",
+            "background": "#2f6f37ff",
+            "selection": "#2f6f3766"
           },
           {
-            "background": "#211047ff",
-            "border": "#211047ff"
+            "cursor": "#975bf1ff",
+            "background": "#975bf1ff",
+            "selection": "#975bf166"
           },
           {
-            "background": "#2e1a00ff",
-            "border": "#2e1a00ff"
+            "cursor": "#895906ff",
+            "background": "#895906ff",
+            "selection": "#89590666"
           },
           {
-            "background": "#041f25ff",
-            "border": "#041f25ff"
+            "cursor": "#106c70ff",
+            "background": "#106c70ff",
+            "selection": "#106c7066"
           },
           {
-            "background": "#3c0614ff",
-            "border": "#3c0614ff"
+            "cursor": "#eb3342ff",
+            "background": "#eb3342ff",
+            "selection": "#eb334266"
           }
         ],
         "syntax": {
@@ -2565,8 +2614,8 @@
           },
           "string.escape": {
             "color": "#72f088ff",
-            "font_style": "bold",
-            "font_weight": null
+            "font_style": null,
+            "font_weight": 700
           },
           "string.regex": {
             "color": "#addcffff",
@@ -2622,7 +2671,6 @@
       }
     },
     {
-      "$schema": "https://zed.dev/schema/themes/v0.1.0.json",
       "appearance": "dark",
       "name": "Github Dark Tritanopia",
       "style": {
@@ -2647,8 +2695,8 @@
         "editor.active_line_number": "#f0f6fcff",
         "editor.active_wrap_guide": "#3d444db3",
         "editor.background": "#0d1117ff",
-        "editor.document_highlight.read_background": "#388bfd1a",
-        "editor.document_highlight.write_background": "#1f6febff",
+        "editor.document_highlight.read_background": "#4493f84d",
+        "editor.document_highlight.write_background": "#4493f833",
         "editor.foreground": "#f0f6fcff",
         "editor.gutter.background": "#0d1117ff",
         "editor.highlighted_line.background": "#656c7633",
@@ -2704,7 +2752,7 @@
         "scrollbar.thumb.hover_background": "#151b23ff",
         "scrollbar.track.background": "#00000000",
         "scrollbar.track.border": "#00000000",
-        "search.match_background": "#bb800926",
+        "search.match_background": "#f2cc604d",
         "status_bar.background": "#010409ff",
         "success": "#58a6ffff",
         "success.background": "#388bfd26",
@@ -2755,36 +2803,44 @@
         "warning.border": "#3d444db3",
         "players": [
           {
-            "background": "#001a47ff",
-            "border": "#001a47ff"
+            "cursor": "#0576ffff",
+            "background": "#0576ffff",
+            "selection": "#0576ff66"
           },
           {
-            "background": "#311708ff",
-            "border": "#311708ff"
+            "cursor": "#984b10ff",
+            "background": "#984b10ff",
+            "selection": "#984b1066"
           },
           {
-            "background": "#2d1524ff",
-            "border": "#2d1524ff"
+            "cursor": "#d34591ff",
+            "background": "#d34591ff",
+            "selection": "#d3459166"
           },
           {
-            "background": "#122117ff",
-            "border": "#122117ff"
+            "cursor": "#2f6f37ff",
+            "background": "#2f6f37ff",
+            "selection": "#2f6f3766"
           },
           {
-            "background": "#211047ff",
-            "border": "#211047ff"
+            "cursor": "#975bf1ff",
+            "background": "#975bf1ff",
+            "selection": "#975bf166"
           },
           {
-            "background": "#2e1a00ff",
-            "border": "#2e1a00ff"
+            "cursor": "#895906ff",
+            "background": "#895906ff",
+            "selection": "#89590666"
           },
           {
-            "background": "#041f25ff",
-            "border": "#041f25ff"
+            "cursor": "#106c70ff",
+            "background": "#106c70ff",
+            "selection": "#106c7066"
           },
           {
-            "background": "#3c0614ff",
-            "border": "#3c0614ff"
+            "cursor": "#eb3342ff",
+            "background": "#eb3342ff",
+            "selection": "#eb334266"
           }
         ],
         "syntax": {
@@ -2939,8 +2995,8 @@
           },
           "string.escape": {
             "color": "#7ee787ff",
-            "font_style": "bold",
-            "font_weight": null
+            "font_style": null,
+            "font_weight": 700
           },
           "string.regex": {
             "color": "#a5d6ffff",
@@ -2996,7 +3052,6 @@
       }
     },
     {
-      "$schema": "https://zed.dev/schema/themes/v0.1.0.json",
       "appearance": "dark",
       "name": "Github Dark Dimmed",
       "style": {
@@ -3021,8 +3076,8 @@
         "editor.active_line_number": "#d1d7e0ff",
         "editor.active_wrap_guide": "#3d444db3",
         "editor.background": "#212830ff",
-        "editor.document_highlight.read_background": "#4184e41a",
-        "editor.document_highlight.write_background": "#316dcaff",
+        "editor.document_highlight.read_background": "#478be64d",
+        "editor.document_highlight.write_background": "#478be633",
         "editor.foreground": "#d1d7e0ff",
         "editor.gutter.background": "#212830ff",
         "editor.highlighted_line.background": "#656c7633",
@@ -3078,7 +3133,7 @@
         "scrollbar.thumb.hover_background": "#262c36ff",
         "scrollbar.track.background": "#00000000",
         "scrollbar.track.border": "#00000000",
-        "search.match_background": "#ae7c1426",
+        "search.match_background": "#eac55f4d",
         "status_bar.background": "#151b23ff",
         "success": "#57ab5aff",
         "success.background": "#46954a26",
@@ -3129,36 +3184,44 @@
         "warning.border": "#3d444db3",
         "players": [
           {
-            "background": "#001a47ff",
-            "border": "#001a47ff"
+            "cursor": "#0576ffff",
+            "background": "#0576ffff",
+            "selection": "#0576ff66"
           },
           {
-            "background": "#311708ff",
-            "border": "#311708ff"
+            "cursor": "#984b10ff",
+            "background": "#984b10ff",
+            "selection": "#984b1066"
           },
           {
-            "background": "#2d1524ff",
-            "border": "#2d1524ff"
+            "cursor": "#d34591ff",
+            "background": "#d34591ff",
+            "selection": "#d3459166"
           },
           {
-            "background": "#122117ff",
-            "border": "#122117ff"
+            "cursor": "#2f6f37ff",
+            "background": "#2f6f37ff",
+            "selection": "#2f6f3766"
           },
           {
-            "background": "#211047ff",
-            "border": "#211047ff"
+            "cursor": "#975bf1ff",
+            "background": "#975bf1ff",
+            "selection": "#975bf166"
           },
           {
-            "background": "#2e1a00ff",
-            "border": "#2e1a00ff"
+            "cursor": "#895906ff",
+            "background": "#895906ff",
+            "selection": "#89590666"
           },
           {
-            "background": "#041f25ff",
-            "border": "#041f25ff"
+            "cursor": "#106c70ff",
+            "background": "#106c70ff",
+            "selection": "#106c7066"
           },
           {
-            "background": "#3c0614ff",
-            "border": "#3c0614ff"
+            "cursor": "#eb3342ff",
+            "background": "#eb3342ff",
+            "selection": "#eb334266"
           }
         ],
         "syntax": {
@@ -3313,8 +3376,8 @@
           },
           "string.escape": {
             "color": "#8ddb8cff",
-            "font_style": "bold",
-            "font_weight": null
+            "font_style": null,
+            "font_weight": 700
           },
           "string.regex": {
             "color": "#96d0ffff",

@@ -18,8 +18,44 @@ export function getTheme({ themeKey, name, type }) {
     return themeKey.startsWith('light') ? tokens[lightTokenName] : tokens[darkTokenName]
   }
 
+
+  /**
+   * @param {string} tokenName
+   * @param {number} alphaValue
+   */
+  const alpha = (tokenName, alphaValue) => {
+    const baseToken = tokens[tokenName];
+    if (!baseToken) {
+      console.warn(`Token '${tokenName}' not found in theme '${themeKey}'`)
+      return null;
+    }
+
+    const hexAlpha = Math.round(alphaValue * 255).toString(16).padStart(2, '0');
+
+    // Remove the '#' if present
+    let color = baseToken.replace('#', '');
+
+    // If it's already an 8-digit HEXA, replace the last two characters
+    if (color.length === 8) {
+      color = color.slice(0, 6) + hexAlpha;
+    }
+    // If it's a 6-digit HEX, append the new alpha
+    else if (color.length === 6) {
+      color += hexAlpha;
+    }
+    // If it's a 3-digit HEX, expand it and append the new alpha
+    else if (color.length === 3) {
+      color = color.split('').map(char => char + char).join('') + hexAlpha;
+    }
+    else {
+      console.warn(`Invalid color format for token '${tokenName}': ${baseToken}`);
+      return baseToken;
+    }
+
+    return '#' + color;
+  }
+
   return {
-    "$schema": "https://zed.dev/schema/themes/v0.1.0.json",
     appearance: type,
     name,
     style: {
@@ -50,8 +86,8 @@ export function getTheme({ themeKey, name, type }) {
       "editor.active_line_number": tokens['fgColor/default'],
       "editor.active_wrap_guide": tokens['borderColor/muted'],
       "editor.background": tokens['bgColor/default'],
-      "editor.document_highlight.read_background": tokens['bgColor/accent-muted'],
-      "editor.document_highlight.write_background": tokens['bgColor/accent-emphasis'],
+      "editor.document_highlight.read_background": alpha("fgColor/accent", 0.3),
+      "editor.document_highlight.write_background": alpha("fgColor/accent", 0.2),
       "editor.foreground": tokens['fgColor/default'],
       "editor.gutter.background": tokens['bgColor/default'],
       "editor.highlighted_line.background": tokens['bgColor/neutral-muted'],
@@ -126,7 +162,7 @@ export function getTheme({ themeKey, name, type }) {
       "scrollbar.track.border": tokens['borderColor/transparent'],
       "scrollbar_thumb.background": tokens['bgColor/neutal-muted'],
 
-      "search.match_background": tokens['bgColor/attention-muted'],
+      "search.match_background": alpha("base/color/yellow/1", 0.3),
 
       "status_bar.background": tokens['bgColor/inset'],
 
@@ -198,9 +234,9 @@ export function getTheme({ themeKey, name, type }) {
           "teal",
           "red"
         ].map(color => ({
-          "cursor": tokens[`data/${color}/color`],
-          "background": tokens[`data/${color}/color/muted`],
-          "border": tokens[`data/${color}/color/muted`]
+          "cursor": tokens[`data/${color}/color/emphasis`],
+          "background": tokens[`data/${color}/color/emphasis`],
+          "selection": alpha(`data/${color}/color/emphasis`, 0.4)
         })),
 
       "syntax": {
@@ -356,8 +392,8 @@ export function getTheme({ themeKey, name, type }) {
         },
         "string.escape": {
           "color": lightDark("base/color/green/6", "base/color/green/1"),
-          "font_style": "bold",
-          "font_weight": null
+          "font_style": null,
+          "font_weight": 700
         },
         "string.regex": {
           "color": lightDark("base/color/blue/8", "base/color/blue/1"),
