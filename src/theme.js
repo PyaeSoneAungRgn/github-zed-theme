@@ -78,6 +78,10 @@ export function getTheme({ themeKey, name, type }) {
       "ghost_element.hover": tokens['bgColor/default'],
       "ghost_element.selected": tokens['bgColor/neutral-muted'],
 
+      "hidden": tokens['fgColor/disabled'],
+      "hidden.background": tokens['bgColor/disabled'],
+      "hidden.border": tokens['borderColor/disabled'],
+
       "hint": tokens['fgColor/muted'],
       "hint.background": tokens['bgColor/muted'],
       "hint.border": tokens['borderColor/muted'],
@@ -90,7 +94,7 @@ export function getTheme({ themeKey, name, type }) {
       "icon.disabled": tokens['fgColor/disabled'],
       "icon.placeholder": tokens['fgColor/fgColor/placeholder'],
 
-      "ignored": tokens['fgColor/disabled'],
+      "ignored": tokens['fgColor/muted'],
       "ignored.background": tokens['bgColor/disabled'],
       "ignored.border": tokens['borderColor/disabled'],
 
@@ -163,13 +167,13 @@ export function getTheme({ themeKey, name, type }) {
 
       "terminal.background": tokens['bgColor/inset'],
       "terminal.bright_foreground": tokens['fgColor/onEmphasis'],
-      "terminal.dim_foreground": tokens['fgColor/default'],
-      "terminal.foreground": tokens['fgColor/muted'],
+      "terminal.dim_foreground": tokens['fgColor/muted'],
+      "terminal.foreground": tokens['fgColor/default'],
 
       "text": tokens['fgColor/default'],
       "text.accent": tokens['fgColor/accent'],
       "text.disabled": tokens['fgColor/disabled'],
-      "text.muted": tokens['fgColor/muted'],
+      "text.muted": tokens['fgColor/default'],
       "text.placeholder": tokens['fgColor/placeholder'],
 
       "title_bar.background": tokens['bgColor/inset'],
