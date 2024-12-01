@@ -1,6 +1,6 @@
 id = "github-theme"
 name = "Github Theme"
-version = "0.1.1"
+version = "0.1.2"
 schema_version = 1
 authors = ["Pyae Sone Aung <pyaesoneaungrgn@gmail.com>", "Clay Tercek"]
 description = "GitHub themes for Zed"
