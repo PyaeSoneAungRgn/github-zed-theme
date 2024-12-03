@@ -76,6 +76,7 @@
         "pane.focused_border": "#d1d9e0ff",
         "panel.background": "#f6f8faff",
         "panel.focused_border": "#d1d9e0ff",
+        "predictive": "#59636eff",
         "predictive.background": "#818b981f",
         "predictive.border": "#d1d9e0b3",
         "renamed": "#1a7f37ff",
@@ -126,6 +127,7 @@
         "text.accent": "#0969daff",
         "text.disabled": "#818b98ff",
         "text.muted": "#1f2328ff",
+        "text.placeholder": "#59636eff",
         "title_bar.background": "#f6f8faff",
         "toolbar.background": "#ffffffff",
         "unreachable": "#818b98ff",
@@ -278,6 +280,7 @@
             "font_weight": null
           },
           "predictive": {
+            "color": "#59636eff",
             "font_style": "italic",
             "font_weight": null
           },
@@ -457,6 +460,7 @@
         "pane.focused_border": "#d1d9e0ff",
         "panel.background": "#f6f8faff",
         "panel.focused_border": "#d1d9e0ff",
+        "predictive": "#59636eff",
         "predictive.background": "#818b981f",
         "predictive.border": "#d1d9e0b3",
         "renamed": "#0969daff",
@@ -507,6 +511,7 @@
         "text.accent": "#0969daff",
         "text.disabled": "#818b98ff",
         "text.muted": "#1f2328ff",
+        "text.placeholder": "#59636eff",
         "title_bar.background": "#f6f8faff",
         "toolbar.background": "#ffffffff",
         "unreachable": "#818b98ff",
@@ -659,6 +664,7 @@
             "font_weight": null
           },
           "predictive": {
+            "color": "#59636eff",
             "font_style": "italic",
             "font_weight": null
           },
@@ -838,6 +844,7 @@
         "pane.focused_border": "#454c54ff",
         "panel.background": "#eff2f5ff",
         "panel.focused_border": "#454c54ff",
+        "predictive": "#454c54ff",
         "predictive.background": "#e0e6ebff",
         "predictive.border": "#454c54ff",
         "renamed": "#024c1aff",
@@ -888,6 +895,7 @@
         "text.accent": "#023b95ff",
         "text.disabled": "#59636eff",
         "text.muted": "#010409ff",
+        "text.placeholder": "#454c54ff",
         "title_bar.background": "#eff2f5ff",
         "toolbar.background": "#ffffffff",
         "unreachable": "#59636eff",
@@ -1040,6 +1048,7 @@
             "font_weight": null
           },
           "predictive": {
+            "color": "#454c54ff",
             "font_style": "italic",
             "font_weight": null
           },
@@ -1219,6 +1228,7 @@
         "pane.focused_border": "#d1d9e0ff",
         "panel.background": "#f6f8faff",
         "panel.focused_border": "#d1d9e0ff",
+        "predictive": "#59636eff",
         "predictive.background": "#818b981f",
         "predictive.border": "#d1d9e0b3",
         "renamed": "#0969daff",
@@ -1269,6 +1279,7 @@
         "text.accent": "#0969daff",
         "text.disabled": "#818b98ff",
         "text.muted": "#1f2328ff",
+        "text.placeholder": "#59636eff",
         "title_bar.background": "#f6f8faff",
         "toolbar.background": "#ffffffff",
         "unreachable": "#818b98ff",
@@ -1421,6 +1432,7 @@
             "font_weight": null
           },
           "predictive": {
+            "color": "#59636eff",
             "font_style": "italic",
             "font_weight": null
           },
@@ -1600,6 +1612,7 @@
         "pane.focused_border": "#3d444dff",
         "panel.background": "#010409ff",
         "panel.focused_border": "#3d444dff",
+        "predictive": "#9198a1ff",
         "predictive.background": "#656c7633",
         "predictive.border": "#3d444db3",
         "renamed": "#3fb950ff",
@@ -1650,6 +1663,7 @@
         "text.accent": "#4493f8ff",
         "text.disabled": "#656c7699",
         "text.muted": "#f0f6fcff",
+        "text.placeholder": "#9198a1ff",
         "title_bar.background": "#010409ff",
         "toolbar.background": "#0d1117ff",
         "unreachable": "#656c7699",
@@ -1802,6 +1816,7 @@
             "font_weight": null
           },
           "predictive": {
+            "color": "#9198a1ff",
             "font_style": "italic",
             "font_weight": null
           },
@@ -1981,6 +1996,7 @@
         "pane.focused_border": "#3d444dff",
         "panel.background": "#010409ff",
         "panel.focused_border": "#3d444dff",
+        "predictive": "#9198a1ff",
         "predictive.background": "#656c7633",
         "predictive.border": "#3d444db3",
         "renamed": "#58a6ffff",
@@ -2031,6 +2047,7 @@
         "text.accent": "#4493f8ff",
         "text.disabled": "#656c7699",
         "text.muted": "#f0f6fcff",
+        "text.placeholder": "#9198a1ff",
         "title_bar.background": "#010409ff",
         "toolbar.background": "#0d1117ff",
         "unreachable": "#656c7699",
@@ -2183,6 +2200,7 @@
             "font_weight": null
           },
           "predictive": {
+            "color": "#9198a1ff",
             "font_style": "italic",
             "font_weight": null
           },
@@ -2362,6 +2380,7 @@
         "pane.focused_border": "#b7bdc8ff",
         "panel.background": "#010409ff",
         "panel.focused_border": "#b7bdc8ff",
+        "predictive": "#b7bdc8ff",
         "predictive.background": "#212830ff",
         "predictive.border": "#b7bdc8ff",
         "renamed": "#2bd853ff",
@@ -2412,6 +2431,7 @@
         "text.accent": "#74b9ffff",
         "text.disabled": "#9198a199",
         "text.muted": "#ffffffff",
+        "text.placeholder": "#b7bdc8ff",
         "title_bar.background": "#010409ff",
         "toolbar.background": "#010409ff",
         "unreachable": "#9198a199",
@@ -2564,6 +2584,7 @@
             "font_weight": null
           },
           "predictive": {
+            "color": "#b7bdc8ff",
             "font_style": "italic",
             "font_weight": null
           },
@@ -2743,6 +2764,7 @@
         "pane.focused_border": "#3d444dff",
         "panel.background": "#010409ff",
         "panel.focused_border": "#3d444dff",
+        "predictive": "#9198a1ff",
         "predictive.background": "#656c7633",
         "predictive.border": "#3d444db3",
         "renamed": "#58a6ffff",
@@ -2793,6 +2815,7 @@
         "text.accent": "#4493f8ff",
         "text.disabled": "#656c7699",
         "text.muted": "#f0f6fcff",
+        "text.placeholder": "#9198a1ff",
         "title_bar.background": "#010409ff",
         "toolbar.background": "#0d1117ff",
         "unreachable": "#656c7699",
@@ -2945,6 +2968,7 @@
             "font_weight": null
           },
           "predictive": {
+            "color": "#9198a1ff",
             "font_style": "italic",
             "font_weight": null
           },
@@ -3124,6 +3148,7 @@
         "pane.focused_border": "#3d444dff",
         "panel.background": "#151b23ff",
         "panel.focused_border": "#3d444dff",
+        "predictive": "#9198a1ff",
         "predictive.background": "#656c7633",
         "predictive.border": "#3d444db3",
         "renamed": "#57ab5aff",
@@ -3174,6 +3199,7 @@
         "text.accent": "#478be6ff",
         "text.disabled": "#656c76ff",
         "text.muted": "#d1d7e0ff",
+        "text.placeholder": "#9198a1ff",
         "title_bar.background": "#151b23ff",
         "toolbar.background": "#212830ff",
         "unreachable": "#656c76ff",
@@ -3326,6 +3352,7 @@
             "font_weight": null
           },
           "predictive": {
+            "color": "#9198a1ff",
             "font_style": "italic",
             "font_weight": null
           },
