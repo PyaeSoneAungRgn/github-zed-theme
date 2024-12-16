@@ -102,7 +102,7 @@ export function getTheme({ themeKey, name, type }) {
       "element.hover": tokens['bgColor/neutral-muted'],
       "element.selected": tokens['bgColor/neutral-muted'],
 
-      "elevated_surface.background": tokens['bgColor/muted'],
+      "elevated_surface.background": tokens['overlay/bgColor'],
 
       "error": tokens['fgColor/danger'],
       "error.background": tokens['bgColor/muted'],
@@ -111,7 +111,7 @@ export function getTheme({ themeKey, name, type }) {
       "ghost_element.active": tokens['bgColor/neutral-muted'],
       "ghost_element.background": tokens['bgColor/transparent'],
       "ghost_element.disabled": tokens['bgColor/disabled'],
-      "ghost_element.hover": tokens['bgColor/default'],
+      "ghost_element.hover": tokens['bgColor/neutral-muted'],
       "ghost_element.selected": tokens['bgColor/neutral-muted'],
 
       "hidden": tokens['fgColor/disabled'],
