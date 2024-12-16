@@ -128,7 +128,7 @@ export function getTheme({ themeKey, name, type }) {
       "icon.accent": tokens['fgColor/accent'],
       "icon.muted": tokens['fgColor/muted'],
       "icon.disabled": tokens['fgColor/disabled'],
-      "icon.placeholder": tokens['fgColor/fgColor/placeholder'],
+      "icon.placeholder": tokens['fgColor/fgColor/muted'],
 
       "ignored": tokens['fgColor/muted'],
       "ignored.background": tokens['bgColor/disabled'],
@@ -148,7 +148,7 @@ export function getTheme({ themeKey, name, type }) {
       "panel.background": tokens['bgColor/inset'],
       "panel.focused_border": tokens['borderColor/default'],
 
-      "predictive": tokens['fgColor/placeholder'],
+      "predictive": tokens['fgColor/muted'],
       "predictive.background": tokens['bgColor/neutral-muted'],
       "predictive.border": tokens['borderColor/neutral-muted'],
 
@@ -210,7 +210,7 @@ export function getTheme({ themeKey, name, type }) {
       "text.accent": tokens['fgColor/accent'],
       "text.disabled": tokens['fgColor/disabled'],
       "text.muted": tokens['fgColor/default'],
-      "text.placeholder": tokens['fgColor/placeholder'],
+      "text.placeholder": tokens['fgColor/muted'],
 
       "title_bar.background": tokens['bgColor/inset'],
       "toolbar.background": tokens['bgColor/default'],
@@ -341,7 +341,7 @@ export function getTheme({ themeKey, name, type }) {
           "font_weight": null
         },
         "predictive": {
-          "color": tokens["fgColor/placeholder"],
+          "color": tokens["fgColor/muted"],
           "font_style": "italic",
           "font_weight": null
         },
