@@ -445,6 +445,224 @@ export function getTheme({ themeKey, name, type }) {
           "font_style": null,
           "font_weight": null
         }
+      },
+      "tokens": {
+        "decorator": {
+          "color": null,
+          "font_style": null,
+          "font_weight": null
+        },
+        "comma": {
+          "color": null,
+          "font_style": null,
+          "font_weight": null
+        },
+        "static": {
+          "color": null,
+          "font_style": null,
+          "font_weight": null
+        },
+        "semicolon": {
+          "color": null,
+          "font_style": null,
+          "font_weight": null
+        },
+        "colon": {
+          "color": null,
+          "font_style": null,
+          "font_weight": null
+        },
+        "boolean": {
+          "color": lightDark("base/color/blue/6", "base/color/blue/2"),
+          "font_style": null,
+          "font_weight": null
+        },
+        "comment": {
+          "color": tokens["base/color/neutral/9"],
+          "font_style": null,
+          "font_weight": null
+        },
+        "const": {
+          "color": lightDark("base/color/blue/6", "base/color/blue/2"),
+          "font_style": null,
+          "font_weight": null
+        },
+        "enumMember": {
+          "color": lightDark("base/color/blue/6", "base/color/blue/2"),
+          "font_style": null,
+          "font_weight": null
+        },
+        "namespace": {
+          "color": lightDark("base/color/orange/6", "base/color/orange/2"),
+          "font_style": null,
+          "font_weight": null
+        },
+        "enum": {
+          "color": lightDark("base/color/orange/6", "base/color/orange/2"),
+          "font_style": null,
+          "font_weight": null
+        },
+        "function": {
+          "color": lightDark("base/color/purple/5", "base/color/purple/2"),
+          "font_style": null,
+          "font_weight": null
+        },
+        "method": {
+          "color": lightDark("base/color/purple/5", "base/color/purple/2"),
+          "font_style": null,
+          "font_weight": null
+        },
+        "lifetime": {
+          "color": lightDark("base/color/red/5", "base/color/red/3"),
+          "font_style": null,
+          "font_weight": null
+        },
+        "dot": {
+          "color": lightDark("base/color/red/5", "base/color/red/3"),
+          "font_style": null,
+          "font_weight": null
+        },
+        "keyword": {
+          "color": lightDark("base/color/red/5", "base/color/red/3"),
+          "font_style": null,
+          "font_weight": null
+        },
+        "selfKeyword": {
+          "color": lightDark("base/color/red/5", "base/color/red/3"),
+          "font_style": null,
+          "font_weight": null
+        },
+        "selfTypeKeyword": {
+          "color": lightDark("base/color/red/5", "base/color/red/3"),
+          "font_style": null,
+          "font_weight": null
+        },
+        "parameter": {
+          "color": lightDark("base/color/orange/6", "base/color/orange/2"),
+          "font_style": null,
+          "font_weight": null
+        },
+        "property": {
+          "color": lightDark("base/color/blue/6", "base/color/blue/2"),
+          "font_style": null,
+          "font_weight": null
+        },
+        "punctuation": {
+          "color": tokens["fgColor/default"],
+          "font_style": null,
+          "font_weight": null
+        },
+        "operator": {
+          "color": lightDark("base/color/red/5", "base/color/red/3"),
+          "font_style": null,
+          "font_weight": null
+        },
+        "character": {
+          "color": lightDark("base/color/blue/8", "base/color/blue/1"),
+          "font_style": null,
+          "font_weight": null
+        },
+        "string": {
+          "color": lightDark("base/color/blue/8", "base/color/blue/1"),
+          "font_style": null,
+          "font_weight": null
+        },
+        "escapeSequence": {
+          "color": lightDark("base/color/green/6", "base/color/green/1"),
+          "font_style": null,
+          "font_weight": 700
+        },
+        "invalidEscapeSequence": {
+          "color": lightDark("base/color/red/5", "base/color/red/3"),
+          "font_style": null,
+          "font_weight": null
+        },
+        "formatSpecifier": {
+          "color": tokens["fgColor/default"],
+          "font_style": null,
+          "font_weight": null
+        },
+        "deriveHelper": {
+          "color": lightDark("base/color/orange/6", "base/color/orange/2"),
+          "font_style": null,
+          "font_weight": null
+        },
+        "derive": {
+          "color": lightDark("base/color/orange/6", "base/color/orange/2"),
+          "font_style": null,
+          "font_weight": null
+        },
+        "builtinAttribute": {
+          "color": lightDark("base/color/orange/6", "base/color/orange/2"),
+          "font_style": null,
+          "font_weight": null
+        },
+        "builtinType": {
+          "color": lightDark("base/color/blue/6", "base/color/blue/2"),
+          "font_style": null,
+          "font_weight": null
+        },
+        "generic": {
+          "color": lightDark("base/color/orange/6", "base/color/orange/2"),
+          "font_style": null,
+          "font_weight": null
+        },
+        "typeParameter": {
+          "color": lightDark("base/color/orange/6", "base/color/orange/2"),
+          "font_style": null,
+          "font_weight": null
+        },
+        "type": {
+          "color": lightDark("base/color/orange/6", "base/color/orange/2"),
+          "font_style": null,
+          "font_weight": null
+        },
+        "typeAlias": {
+          "color": lightDark("base/color/orange/6", "base/color/orange/2"),
+          "font_style": null,
+          "font_weight": null
+        },
+        "variable": {
+          "color": tokens["fgColor/default"],
+          "font_style": null,
+          "font_weight": null
+        },
+        "unresolvedReference": {
+          "color": lightDark("base/color/red/5", "base/color/red/3"),
+          "font_style": null,
+          "font_weight": null
+        },
+      },
+      "modifiers": {
+        "documentation": {
+          "color": tokens["base/color/neutral/9"],
+          "font_style": null,
+          "font_weight": null
+        },
+        "public": {
+          "color": null,
+          "font_style": null,
+          "font_weight": null
+        },
+        "async": {
+          "color": null,
+          "font_style": "italic",
+          "font_weight": null
+        },
+        "mutable": {
+          "color": null,
+          "font_style": null,
+          "underline": {
+            "wavy": false,
+            "thickness": 1.0
+          },
+          "font_weight": null
+        },
+        "trait": {
+          "color": lightDark("base/color/blue/6", "base/color/blue/2"),
+          "font_style": null,
+          "font_weight": null
+        },
       }
     }
   }
