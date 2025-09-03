@@ -1,11 +1,11 @@
 {
   "$schema": "https://zed.dev/schema/themes/v0.1.0.json",
-  "name": "Github Theme",
+  "name": "GitHub Theme",
   "author": "Pyae Sone Aung",
   "themes": [
     {
       "appearance": "light",
-      "name": "Github Light",
+      "name": "GitHub Light",
       "style": {
         "background": "#ffffffff",
         "border": "#d1d9e0ff",
@@ -389,7 +389,7 @@
     },
     {
       "appearance": "light",
-      "name": "Github Light Colorblind",
+      "name": "GitHub Light Colorblind",
       "style": {
         "background": "#ffffffff",
         "border": "#d1d9e0ff",
@@ -773,7 +773,7 @@
     },
     {
       "appearance": "light",
-      "name": "Github Light High Contrast",
+      "name": "GitHub Light High Contrast",
       "style": {
         "background": "#ffffffff",
         "border": "#454c54ff",
@@ -1157,7 +1157,7 @@
     },
     {
       "appearance": "light",
-      "name": "Github Light Tritanopia",
+      "name": "GitHub Light Tritanopia",
       "style": {
         "background": "#ffffffff",
         "border": "#d1d9e0ff",
@@ -1541,7 +1541,7 @@
     },
     {
       "appearance": "dark",
-      "name": "Github Dark",
+      "name": "GitHub Dark",
       "style": {
         "background": "#0d1117ff",
         "border": "#3d444dff",
@@ -1925,7 +1925,7 @@
     },
     {
       "appearance": "dark",
-      "name": "Github Dark Colorblind",
+      "name": "GitHub Dark Colorblind",
       "style": {
         "background": "#0d1117ff",
         "border": "#3d444dff",
@@ -2309,7 +2309,7 @@
     },
     {
       "appearance": "dark",
-      "name": "Github Dark High Contrast",
+      "name": "GitHub Dark High Contrast",
       "style": {
         "background": "#010409ff",
         "border": "#b7bdc8ff",
@@ -2693,7 +2693,7 @@
     },
     {
       "appearance": "dark",
-      "name": "Github Dark Tritanopia",
+      "name": "GitHub Dark Tritanopia",
       "style": {
         "background": "#0d1117ff",
         "border": "#3d444dff",
@@ -3077,7 +3077,7 @@
     },
     {
       "appearance": "dark",
-      "name": "Github Dark Dimmed",
+      "name": "GitHub Dark Dimmed",
       "style": {
         "background": "#212830ff",
         "border": "#3d444dff",
