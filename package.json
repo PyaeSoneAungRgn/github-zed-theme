@@ -8,7 +8,7 @@
     "build": "node src/generate"
   },
   "devDependencies": {
-    "@primer/primitives": "^9.1.1",
+    "@primer/primitives": "^11.2.1",
     "@types/node": "^20.14.6",
     "typescript": "^5.4.5"
   }
