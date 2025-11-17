@@ -384,6 +384,224 @@
             "font_style": null,
             "font_weight": null
           }
+        },
+        "tokens": {
+          "decorator": {
+            "color": null,
+            "font_style": null,
+            "font_weight": null
+          },
+          "comma": {
+            "color": null,
+            "font_style": null,
+            "font_weight": null
+          },
+          "static": {
+            "color": null,
+            "font_style": null,
+            "font_weight": null
+          },
+          "semicolon": {
+            "color": null,
+            "font_style": null,
+            "font_weight": null
+          },
+          "colon": {
+            "color": null,
+            "font_style": null,
+            "font_weight": null
+          },
+          "boolean": {
+            "color": "#0550aeff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "comment": {
+            "color": "#59636eff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "const": {
+            "color": "#0550aeff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "enumMember": {
+            "color": "#0550aeff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "namespace": {
+            "color": "#953800ff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "enum": {
+            "color": "#953800ff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "function": {
+            "color": "#8250dfff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "method": {
+            "color": "#8250dfff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "lifetime": {
+            "color": "#cf222eff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "dot": {
+            "color": "#cf222eff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "keyword": {
+            "color": "#cf222eff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "selfKeyword": {
+            "color": "#cf222eff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "selfTypeKeyword": {
+            "color": "#cf222eff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "parameter": {
+            "color": "#953800ff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "property": {
+            "color": "#0550aeff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "punctuation": {
+            "color": "#1f2328ff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "operator": {
+            "color": "#cf222eff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "character": {
+            "color": "#0a3069ff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "string": {
+            "color": "#0a3069ff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "escapeSequence": {
+            "color": "#116329ff",
+            "font_style": null,
+            "font_weight": 700
+          },
+          "invalidEscapeSequence": {
+            "color": "#cf222eff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "formatSpecifier": {
+            "color": "#1f2328ff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "deriveHelper": {
+            "color": "#953800ff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "derive": {
+            "color": "#953800ff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "builtinAttribute": {
+            "color": "#953800ff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "builtinType": {
+            "color": "#0550aeff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "generic": {
+            "color": "#953800ff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "typeParameter": {
+            "color": "#953800ff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "type": {
+            "color": "#953800ff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "typeAlias": {
+            "color": "#953800ff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "variable": {
+            "color": "#1f2328ff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "unresolvedReference": {
+            "color": "#cf222eff",
+            "font_style": null,
+            "font_weight": null
+          }
+        },
+        "modifiers": {
+          "documentation": {
+            "color": "#59636eff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "public": {
+            "color": null,
+            "font_style": null,
+            "font_weight": null
+          },
+          "async": {
+            "color": null,
+            "font_style": "italic",
+            "font_weight": null
+          },
+          "mutable": {
+            "color": null,
+            "font_style": null,
+            "underline": {
+              "wavy": false,
+              "thickness": 1
+            },
+            "font_weight": null
+          },
+          "trait": {
+            "color": "#0550aeff",
+            "font_style": null,
+            "font_weight": null
+          }
         }
       }
     },
@@ -765,6 +983,224 @@
           },
           "variant": {
             "color": "#953800ff",
+            "font_style": null,
+            "font_weight": null
+          }
+        },
+        "tokens": {
+          "decorator": {
+            "color": null,
+            "font_style": null,
+            "font_weight": null
+          },
+          "comma": {
+            "color": null,
+            "font_style": null,
+            "font_weight": null
+          },
+          "static": {
+            "color": null,
+            "font_style": null,
+            "font_weight": null
+          },
+          "semicolon": {
+            "color": null,
+            "font_style": null,
+            "font_weight": null
+          },
+          "colon": {
+            "color": null,
+            "font_style": null,
+            "font_weight": null
+          },
+          "boolean": {
+            "color": "#0550aeff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "comment": {
+            "color": "#59636eff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "const": {
+            "color": "#0550aeff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "enumMember": {
+            "color": "#0550aeff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "namespace": {
+            "color": "#953800ff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "enum": {
+            "color": "#953800ff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "function": {
+            "color": "#8250dfff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "method": {
+            "color": "#8250dfff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "lifetime": {
+            "color": "#cf222eff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "dot": {
+            "color": "#cf222eff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "keyword": {
+            "color": "#cf222eff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "selfKeyword": {
+            "color": "#cf222eff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "selfTypeKeyword": {
+            "color": "#cf222eff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "parameter": {
+            "color": "#953800ff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "property": {
+            "color": "#0550aeff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "punctuation": {
+            "color": "#1f2328ff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "operator": {
+            "color": "#cf222eff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "character": {
+            "color": "#0a3069ff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "string": {
+            "color": "#0a3069ff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "escapeSequence": {
+            "color": "#116329ff",
+            "font_style": null,
+            "font_weight": 700
+          },
+          "invalidEscapeSequence": {
+            "color": "#cf222eff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "formatSpecifier": {
+            "color": "#1f2328ff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "deriveHelper": {
+            "color": "#953800ff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "derive": {
+            "color": "#953800ff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "builtinAttribute": {
+            "color": "#953800ff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "builtinType": {
+            "color": "#0550aeff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "generic": {
+            "color": "#953800ff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "typeParameter": {
+            "color": "#953800ff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "type": {
+            "color": "#953800ff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "typeAlias": {
+            "color": "#953800ff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "variable": {
+            "color": "#1f2328ff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "unresolvedReference": {
+            "color": "#cf222eff",
+            "font_style": null,
+            "font_weight": null
+          }
+        },
+        "modifiers": {
+          "documentation": {
+            "color": "#59636eff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "public": {
+            "color": null,
+            "font_style": null,
+            "font_weight": null
+          },
+          "async": {
+            "color": null,
+            "font_style": "italic",
+            "font_weight": null
+          },
+          "mutable": {
+            "color": null,
+            "font_style": null,
+            "underline": {
+              "wavy": false,
+              "thickness": 1
+            },
+            "font_weight": null
+          },
+          "trait": {
+            "color": "#0550aeff",
             "font_style": null,
             "font_weight": null
           }
@@ -1152,6 +1588,224 @@
             "font_style": null,
             "font_weight": null
           }
+        },
+        "tokens": {
+          "decorator": {
+            "color": null,
+            "font_style": null,
+            "font_weight": null
+          },
+          "comma": {
+            "color": null,
+            "font_style": null,
+            "font_weight": null
+          },
+          "static": {
+            "color": null,
+            "font_style": null,
+            "font_weight": null
+          },
+          "semicolon": {
+            "color": null,
+            "font_style": null,
+            "font_weight": null
+          },
+          "colon": {
+            "color": null,
+            "font_style": null,
+            "font_weight": null
+          },
+          "boolean": {
+            "color": "#023b95ff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "comment": {
+            "color": "#59636eff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "const": {
+            "color": "#023b95ff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "enumMember": {
+            "color": "#023b95ff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "namespace": {
+            "color": "#702c00ff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "enum": {
+            "color": "#702c00ff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "function": {
+            "color": "#622cbcff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "method": {
+            "color": "#622cbcff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "lifetime": {
+            "color": "#a0111fff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "dot": {
+            "color": "#a0111fff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "keyword": {
+            "color": "#a0111fff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "selfKeyword": {
+            "color": "#a0111fff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "selfTypeKeyword": {
+            "color": "#a0111fff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "parameter": {
+            "color": "#702c00ff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "property": {
+            "color": "#023b95ff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "punctuation": {
+            "color": "#010409ff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "operator": {
+            "color": "#a0111fff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "character": {
+            "color": "#032563ff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "string": {
+            "color": "#032563ff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "escapeSequence": {
+            "color": "#024c1aff",
+            "font_style": null,
+            "font_weight": 700
+          },
+          "invalidEscapeSequence": {
+            "color": "#a0111fff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "formatSpecifier": {
+            "color": "#010409ff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "deriveHelper": {
+            "color": "#702c00ff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "derive": {
+            "color": "#702c00ff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "builtinAttribute": {
+            "color": "#702c00ff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "builtinType": {
+            "color": "#023b95ff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "generic": {
+            "color": "#702c00ff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "typeParameter": {
+            "color": "#702c00ff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "type": {
+            "color": "#702c00ff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "typeAlias": {
+            "color": "#702c00ff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "variable": {
+            "color": "#010409ff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "unresolvedReference": {
+            "color": "#a0111fff",
+            "font_style": null,
+            "font_weight": null
+          }
+        },
+        "modifiers": {
+          "documentation": {
+            "color": "#59636eff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "public": {
+            "color": null,
+            "font_style": null,
+            "font_weight": null
+          },
+          "async": {
+            "color": null,
+            "font_style": "italic",
+            "font_weight": null
+          },
+          "mutable": {
+            "color": null,
+            "font_style": null,
+            "underline": {
+              "wavy": false,
+              "thickness": 1
+            },
+            "font_weight": null
+          },
+          "trait": {
+            "color": "#023b95ff",
+            "font_style": null,
+            "font_weight": null
+          }
         }
       }
     },
@@ -1533,6 +2187,224 @@
           },
           "variant": {
             "color": "#953800ff",
+            "font_style": null,
+            "font_weight": null
+          }
+        },
+        "tokens": {
+          "decorator": {
+            "color": null,
+            "font_style": null,
+            "font_weight": null
+          },
+          "comma": {
+            "color": null,
+            "font_style": null,
+            "font_weight": null
+          },
+          "static": {
+            "color": null,
+            "font_style": null,
+            "font_weight": null
+          },
+          "semicolon": {
+            "color": null,
+            "font_style": null,
+            "font_weight": null
+          },
+          "colon": {
+            "color": null,
+            "font_style": null,
+            "font_weight": null
+          },
+          "boolean": {
+            "color": "#0550aeff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "comment": {
+            "color": "#59636eff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "const": {
+            "color": "#0550aeff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "enumMember": {
+            "color": "#0550aeff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "namespace": {
+            "color": "#953800ff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "enum": {
+            "color": "#953800ff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "function": {
+            "color": "#8250dfff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "method": {
+            "color": "#8250dfff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "lifetime": {
+            "color": "#cf222eff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "dot": {
+            "color": "#cf222eff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "keyword": {
+            "color": "#cf222eff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "selfKeyword": {
+            "color": "#cf222eff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "selfTypeKeyword": {
+            "color": "#cf222eff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "parameter": {
+            "color": "#953800ff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "property": {
+            "color": "#0550aeff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "punctuation": {
+            "color": "#1f2328ff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "operator": {
+            "color": "#cf222eff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "character": {
+            "color": "#0a3069ff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "string": {
+            "color": "#0a3069ff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "escapeSequence": {
+            "color": "#116329ff",
+            "font_style": null,
+            "font_weight": 700
+          },
+          "invalidEscapeSequence": {
+            "color": "#cf222eff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "formatSpecifier": {
+            "color": "#1f2328ff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "deriveHelper": {
+            "color": "#953800ff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "derive": {
+            "color": "#953800ff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "builtinAttribute": {
+            "color": "#953800ff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "builtinType": {
+            "color": "#0550aeff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "generic": {
+            "color": "#953800ff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "typeParameter": {
+            "color": "#953800ff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "type": {
+            "color": "#953800ff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "typeAlias": {
+            "color": "#953800ff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "variable": {
+            "color": "#1f2328ff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "unresolvedReference": {
+            "color": "#cf222eff",
+            "font_style": null,
+            "font_weight": null
+          }
+        },
+        "modifiers": {
+          "documentation": {
+            "color": "#59636eff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "public": {
+            "color": null,
+            "font_style": null,
+            "font_weight": null
+          },
+          "async": {
+            "color": null,
+            "font_style": "italic",
+            "font_weight": null
+          },
+          "mutable": {
+            "color": null,
+            "font_style": null,
+            "underline": {
+              "wavy": false,
+              "thickness": 1
+            },
+            "font_weight": null
+          },
+          "trait": {
+            "color": "#0550aeff",
             "font_style": null,
             "font_weight": null
           }
@@ -1920,6 +2792,224 @@
             "font_style": null,
             "font_weight": null
           }
+        },
+        "tokens": {
+          "decorator": {
+            "color": null,
+            "font_style": null,
+            "font_weight": null
+          },
+          "comma": {
+            "color": null,
+            "font_style": null,
+            "font_weight": null
+          },
+          "static": {
+            "color": null,
+            "font_style": null,
+            "font_weight": null
+          },
+          "semicolon": {
+            "color": null,
+            "font_style": null,
+            "font_weight": null
+          },
+          "colon": {
+            "color": null,
+            "font_style": null,
+            "font_weight": null
+          },
+          "boolean": {
+            "color": "#79c0ffff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "comment": {
+            "color": "#9198a1ff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "const": {
+            "color": "#79c0ffff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "enumMember": {
+            "color": "#79c0ffff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "namespace": {
+            "color": "#ffa657ff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "enum": {
+            "color": "#ffa657ff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "function": {
+            "color": "#d2a8ffff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "method": {
+            "color": "#d2a8ffff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "lifetime": {
+            "color": "#ff7b72ff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "dot": {
+            "color": "#ff7b72ff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "keyword": {
+            "color": "#ff7b72ff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "selfKeyword": {
+            "color": "#ff7b72ff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "selfTypeKeyword": {
+            "color": "#ff7b72ff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "parameter": {
+            "color": "#ffa657ff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "property": {
+            "color": "#79c0ffff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "punctuation": {
+            "color": "#f0f6fcff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "operator": {
+            "color": "#ff7b72ff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "character": {
+            "color": "#a5d6ffff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "string": {
+            "color": "#a5d6ffff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "escapeSequence": {
+            "color": "#7ee787ff",
+            "font_style": null,
+            "font_weight": 700
+          },
+          "invalidEscapeSequence": {
+            "color": "#ff7b72ff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "formatSpecifier": {
+            "color": "#f0f6fcff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "deriveHelper": {
+            "color": "#ffa657ff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "derive": {
+            "color": "#ffa657ff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "builtinAttribute": {
+            "color": "#ffa657ff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "builtinType": {
+            "color": "#79c0ffff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "generic": {
+            "color": "#ffa657ff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "typeParameter": {
+            "color": "#ffa657ff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "type": {
+            "color": "#ffa657ff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "typeAlias": {
+            "color": "#ffa657ff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "variable": {
+            "color": "#f0f6fcff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "unresolvedReference": {
+            "color": "#ff7b72ff",
+            "font_style": null,
+            "font_weight": null
+          }
+        },
+        "modifiers": {
+          "documentation": {
+            "color": "#9198a1ff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "public": {
+            "color": null,
+            "font_style": null,
+            "font_weight": null
+          },
+          "async": {
+            "color": null,
+            "font_style": "italic",
+            "font_weight": null
+          },
+          "mutable": {
+            "color": null,
+            "font_style": null,
+            "underline": {
+              "wavy": false,
+              "thickness": 1
+            },
+            "font_weight": null
+          },
+          "trait": {
+            "color": "#79c0ffff",
+            "font_style": null,
+            "font_weight": null
+          }
         }
       }
     },
@@ -2301,6 +3391,224 @@
           },
           "variant": {
             "color": "#ffa657ff",
+            "font_style": null,
+            "font_weight": null
+          }
+        },
+        "tokens": {
+          "decorator": {
+            "color": null,
+            "font_style": null,
+            "font_weight": null
+          },
+          "comma": {
+            "color": null,
+            "font_style": null,
+            "font_weight": null
+          },
+          "static": {
+            "color": null,
+            "font_style": null,
+            "font_weight": null
+          },
+          "semicolon": {
+            "color": null,
+            "font_style": null,
+            "font_weight": null
+          },
+          "colon": {
+            "color": null,
+            "font_style": null,
+            "font_weight": null
+          },
+          "boolean": {
+            "color": "#79c0ffff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "comment": {
+            "color": "#9198a1ff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "const": {
+            "color": "#79c0ffff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "enumMember": {
+            "color": "#79c0ffff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "namespace": {
+            "color": "#ffa657ff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "enum": {
+            "color": "#ffa657ff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "function": {
+            "color": "#d2a8ffff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "method": {
+            "color": "#d2a8ffff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "lifetime": {
+            "color": "#ff7b72ff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "dot": {
+            "color": "#ff7b72ff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "keyword": {
+            "color": "#ff7b72ff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "selfKeyword": {
+            "color": "#ff7b72ff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "selfTypeKeyword": {
+            "color": "#ff7b72ff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "parameter": {
+            "color": "#ffa657ff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "property": {
+            "color": "#79c0ffff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "punctuation": {
+            "color": "#f0f6fcff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "operator": {
+            "color": "#ff7b72ff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "character": {
+            "color": "#a5d6ffff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "string": {
+            "color": "#a5d6ffff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "escapeSequence": {
+            "color": "#7ee787ff",
+            "font_style": null,
+            "font_weight": 700
+          },
+          "invalidEscapeSequence": {
+            "color": "#ff7b72ff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "formatSpecifier": {
+            "color": "#f0f6fcff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "deriveHelper": {
+            "color": "#ffa657ff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "derive": {
+            "color": "#ffa657ff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "builtinAttribute": {
+            "color": "#ffa657ff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "builtinType": {
+            "color": "#79c0ffff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "generic": {
+            "color": "#ffa657ff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "typeParameter": {
+            "color": "#ffa657ff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "type": {
+            "color": "#ffa657ff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "typeAlias": {
+            "color": "#ffa657ff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "variable": {
+            "color": "#f0f6fcff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "unresolvedReference": {
+            "color": "#ff7b72ff",
+            "font_style": null,
+            "font_weight": null
+          }
+        },
+        "modifiers": {
+          "documentation": {
+            "color": "#9198a1ff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "public": {
+            "color": null,
+            "font_style": null,
+            "font_weight": null
+          },
+          "async": {
+            "color": null,
+            "font_style": "italic",
+            "font_weight": null
+          },
+          "mutable": {
+            "color": null,
+            "font_style": null,
+            "underline": {
+              "wavy": false,
+              "thickness": 1
+            },
+            "font_weight": null
+          },
+          "trait": {
+            "color": "#79c0ffff",
             "font_style": null,
             "font_weight": null
           }
@@ -2688,6 +3996,224 @@
             "font_style": null,
             "font_weight": null
           }
+        },
+        "tokens": {
+          "decorator": {
+            "color": null,
+            "font_style": null,
+            "font_weight": null
+          },
+          "comma": {
+            "color": null,
+            "font_style": null,
+            "font_weight": null
+          },
+          "static": {
+            "color": null,
+            "font_style": null,
+            "font_weight": null
+          },
+          "semicolon": {
+            "color": null,
+            "font_style": null,
+            "font_weight": null
+          },
+          "colon": {
+            "color": null,
+            "font_style": null,
+            "font_weight": null
+          },
+          "boolean": {
+            "color": "#91cbffff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "comment": {
+            "color": "#9198a1ff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "const": {
+            "color": "#91cbffff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "enumMember": {
+            "color": "#91cbffff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "namespace": {
+            "color": "#ffb757ff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "enum": {
+            "color": "#ffb757ff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "function": {
+            "color": "#dbb7ffff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "method": {
+            "color": "#dbb7ffff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "lifetime": {
+            "color": "#ff9492ff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "dot": {
+            "color": "#ff9492ff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "keyword": {
+            "color": "#ff9492ff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "selfKeyword": {
+            "color": "#ff9492ff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "selfTypeKeyword": {
+            "color": "#ff9492ff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "parameter": {
+            "color": "#ffb757ff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "property": {
+            "color": "#91cbffff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "punctuation": {
+            "color": "#ffffffff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "operator": {
+            "color": "#ff9492ff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "character": {
+            "color": "#addcffff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "string": {
+            "color": "#addcffff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "escapeSequence": {
+            "color": "#72f088ff",
+            "font_style": null,
+            "font_weight": 700
+          },
+          "invalidEscapeSequence": {
+            "color": "#ff9492ff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "formatSpecifier": {
+            "color": "#ffffffff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "deriveHelper": {
+            "color": "#ffb757ff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "derive": {
+            "color": "#ffb757ff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "builtinAttribute": {
+            "color": "#ffb757ff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "builtinType": {
+            "color": "#91cbffff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "generic": {
+            "color": "#ffb757ff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "typeParameter": {
+            "color": "#ffb757ff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "type": {
+            "color": "#ffb757ff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "typeAlias": {
+            "color": "#ffb757ff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "variable": {
+            "color": "#ffffffff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "unresolvedReference": {
+            "color": "#ff9492ff",
+            "font_style": null,
+            "font_weight": null
+          }
+        },
+        "modifiers": {
+          "documentation": {
+            "color": "#9198a1ff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "public": {
+            "color": null,
+            "font_style": null,
+            "font_weight": null
+          },
+          "async": {
+            "color": null,
+            "font_style": "italic",
+            "font_weight": null
+          },
+          "mutable": {
+            "color": null,
+            "font_style": null,
+            "underline": {
+              "wavy": false,
+              "thickness": 1
+            },
+            "font_weight": null
+          },
+          "trait": {
+            "color": "#91cbffff",
+            "font_style": null,
+            "font_weight": null
+          }
         }
       }
     },
@@ -3072,6 +4598,224 @@
             "font_style": null,
             "font_weight": null
           }
+        },
+        "tokens": {
+          "decorator": {
+            "color": null,
+            "font_style": null,
+            "font_weight": null
+          },
+          "comma": {
+            "color": null,
+            "font_style": null,
+            "font_weight": null
+          },
+          "static": {
+            "color": null,
+            "font_style": null,
+            "font_weight": null
+          },
+          "semicolon": {
+            "color": null,
+            "font_style": null,
+            "font_weight": null
+          },
+          "colon": {
+            "color": null,
+            "font_style": null,
+            "font_weight": null
+          },
+          "boolean": {
+            "color": "#79c0ffff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "comment": {
+            "color": "#9198a1ff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "const": {
+            "color": "#79c0ffff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "enumMember": {
+            "color": "#79c0ffff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "namespace": {
+            "color": "#ffa657ff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "enum": {
+            "color": "#ffa657ff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "function": {
+            "color": "#d2a8ffff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "method": {
+            "color": "#d2a8ffff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "lifetime": {
+            "color": "#ff7b72ff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "dot": {
+            "color": "#ff7b72ff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "keyword": {
+            "color": "#ff7b72ff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "selfKeyword": {
+            "color": "#ff7b72ff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "selfTypeKeyword": {
+            "color": "#ff7b72ff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "parameter": {
+            "color": "#ffa657ff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "property": {
+            "color": "#79c0ffff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "punctuation": {
+            "color": "#f0f6fcff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "operator": {
+            "color": "#ff7b72ff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "character": {
+            "color": "#a5d6ffff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "string": {
+            "color": "#a5d6ffff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "escapeSequence": {
+            "color": "#7ee787ff",
+            "font_style": null,
+            "font_weight": 700
+          },
+          "invalidEscapeSequence": {
+            "color": "#ff7b72ff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "formatSpecifier": {
+            "color": "#f0f6fcff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "deriveHelper": {
+            "color": "#ffa657ff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "derive": {
+            "color": "#ffa657ff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "builtinAttribute": {
+            "color": "#ffa657ff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "builtinType": {
+            "color": "#79c0ffff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "generic": {
+            "color": "#ffa657ff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "typeParameter": {
+            "color": "#ffa657ff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "type": {
+            "color": "#ffa657ff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "typeAlias": {
+            "color": "#ffa657ff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "variable": {
+            "color": "#f0f6fcff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "unresolvedReference": {
+            "color": "#ff7b72ff",
+            "font_style": null,
+            "font_weight": null
+          }
+        },
+        "modifiers": {
+          "documentation": {
+            "color": "#9198a1ff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "public": {
+            "color": null,
+            "font_style": null,
+            "font_weight": null
+          },
+          "async": {
+            "color": null,
+            "font_style": "italic",
+            "font_weight": null
+          },
+          "mutable": {
+            "color": null,
+            "font_style": null,
+            "underline": {
+              "wavy": false,
+              "thickness": 1
+            },
+            "font_weight": null
+          },
+          "trait": {
+            "color": "#79c0ffff",
+            "font_style": null,
+            "font_weight": null
+          }
         }
       }
     },
@@ -3453,6 +5197,224 @@
           },
           "variant": {
             "color": "#f69d50ff",
+            "font_style": null,
+            "font_weight": null
+          }
+        },
+        "tokens": {
+          "decorator": {
+            "color": null,
+            "font_style": null,
+            "font_weight": null
+          },
+          "comma": {
+            "color": null,
+            "font_style": null,
+            "font_weight": null
+          },
+          "static": {
+            "color": null,
+            "font_style": null,
+            "font_weight": null
+          },
+          "semicolon": {
+            "color": null,
+            "font_style": null,
+            "font_weight": null
+          },
+          "colon": {
+            "color": null,
+            "font_style": null,
+            "font_weight": null
+          },
+          "boolean": {
+            "color": "#6cb6ffff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "comment": {
+            "color": "#9198a1ff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "const": {
+            "color": "#6cb6ffff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "enumMember": {
+            "color": "#6cb6ffff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "namespace": {
+            "color": "#f69d50ff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "enum": {
+            "color": "#f69d50ff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "function": {
+            "color": "#dcbdfbff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "method": {
+            "color": "#dcbdfbff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "lifetime": {
+            "color": "#f47067ff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "dot": {
+            "color": "#f47067ff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "keyword": {
+            "color": "#f47067ff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "selfKeyword": {
+            "color": "#f47067ff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "selfTypeKeyword": {
+            "color": "#f47067ff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "parameter": {
+            "color": "#f69d50ff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "property": {
+            "color": "#6cb6ffff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "punctuation": {
+            "color": "#d1d7e0ff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "operator": {
+            "color": "#f47067ff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "character": {
+            "color": "#96d0ffff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "string": {
+            "color": "#96d0ffff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "escapeSequence": {
+            "color": "#8ddb8cff",
+            "font_style": null,
+            "font_weight": 700
+          },
+          "invalidEscapeSequence": {
+            "color": "#f47067ff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "formatSpecifier": {
+            "color": "#d1d7e0ff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "deriveHelper": {
+            "color": "#f69d50ff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "derive": {
+            "color": "#f69d50ff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "builtinAttribute": {
+            "color": "#f69d50ff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "builtinType": {
+            "color": "#6cb6ffff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "generic": {
+            "color": "#f69d50ff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "typeParameter": {
+            "color": "#f69d50ff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "type": {
+            "color": "#f69d50ff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "typeAlias": {
+            "color": "#f69d50ff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "variable": {
+            "color": "#d1d7e0ff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "unresolvedReference": {
+            "color": "#f47067ff",
+            "font_style": null,
+            "font_weight": null
+          }
+        },
+        "modifiers": {
+          "documentation": {
+            "color": "#9198a1ff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "public": {
+            "color": null,
+            "font_style": null,
+            "font_weight": null
+          },
+          "async": {
+            "color": null,
+            "font_style": "italic",
+            "font_weight": null
+          },
+          "mutable": {
+            "color": null,
+            "font_style": null,
+            "underline": {
+              "wavy": false,
+              "thickness": 1
+            },
+            "font_weight": null
+          },
+          "trait": {
+            "color": "#6cb6ffff",
             "font_style": null,
             "font_weight": null
           }
