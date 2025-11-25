@@ -55,10 +55,45 @@ export function getTheme({ themeKey, name, type }) {
     return '#' + color;
   }
 
+  let spectrum = [
+    "blue",
+    "green",
+    "yellow",
+    "red",
+    "pink",
+    "purple",
+  ];
+
+  if (themeKey.includes('colorblind')) {
+    // protonopia and deuteranopia friendly spectrum
+    // TODO: these colors were determined by simulating colorblindness digitally 
+    // and picking colors that were more easily distinguishable. A more
+    // thorough approach with input from colorblind users would be better.
+    spectrum = [
+      "blue",
+      "cyan",
+      "yellow",
+      "pink",
+    ];
+  } else if (themeKey.includes('tritanopia')) {
+    // tritanopia friendly spectrum
+    // TODO: these colors were determined by simulating colorblindness digitally 
+    // and picking colors that were more easily distinguishable. A more
+    // thorough approach with input from colorblind users would be better.
+    spectrum = [
+      "teal",
+      "yellow",
+      "purple",
+      "pink",
+    ];
+  }
+
   return {
     appearance: type,
     name,
     style: {
+      accents: spectrum.map(color => tokens[`data/${color}/color/emphasis`]),
+
       "background.appearance": "opaque",
 
       "background": tokens['bgColor/default'],
@@ -221,21 +256,24 @@ export function getTheme({ themeKey, name, type }) {
       "unreachable.background": tokens['bgColor/disabled'],
       "unreachable.border": tokens['borderColor/disabled'],
 
+      // Using functional tokens as they have sufficient contrast for colorblindness
+      // themes, even though they don't really match the functional intent here.
+      "vim.mode.text": tokens['fgColor/default'],
+      "vim.normal.background": tokens['bgColor/neutral-emphasis'],
+      "vim.helix_normal.background": tokens['bgColor/neutral-emphasis'],
+      "vim.visual.background": tokens['bgColor/accent-emphasis'],
+      "vim.helix_select.background": tokens['bgColor/accent-emphasis'],
+      "vim.insert.background": tokens['bgColor/success-emphasis'],
+      "vim.visual_line.background": tokens['bgColor/accent-emphasis'],
+      "vim.visual_block.background": tokens['bgColor/done-emphasis'],
+      "vim.replace.background": tokens['bgColor/sponsors-emphasis'],
+
       "warning": tokens['fgColor/attention'],
       "warning.background": tokens['bgColor/muted'],
       "warning.border": tokens['borderColor/muted'],
 
       "players":
-        [
-          "blue",
-          "orange",
-          "pink",
-          "green",
-          "purple",
-          "yellow",
-          "teal",
-          "red"
-        ].map(color => ({
+        spectrum.map(color => ({
           "cursor": tokens[`data/${color}/color/emphasis`],
           "background": tokens[`data/${color}/color/emphasis`],
           "selection": alpha(`data/${color}/color/emphasis`, 0.4)
