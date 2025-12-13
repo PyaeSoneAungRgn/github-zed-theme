@@ -194,10 +194,10 @@ export function getTheme({ themeKey, name, type }) {
       "renamed.border": tokens['borderColor/success-muted'],
 
       "scrollbar.thumb.border": tokens['borderColor/transparent'],
-      "scrollbar.thumb.hover_background": tokens['bgColor/muted'],
+      "scrollbar.thumb.hover_background": alpha('bgColor/neutral-emphasis', type === 'light' ? 0.2 : 0.4),
       "scrollbar.track.background": tokens['bgColor/transparent'],
       "scrollbar.track.border": tokens['borderColor/transparent'],
-      "scrollbar_thumb.background": tokens['bgColor/neutal-muted'],
+      "scrollbar_thumb.background": alpha('bgColor/neutral-emphasis', type === 'light' ? 0.1 : 0.3),
 
       "search.match_background": alpha("base/color/yellow/1", 0.3),
 
