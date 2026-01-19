@@ -258,7 +258,7 @@ export function getTheme({ themeKey, name, type }) {
 
       // Using functional tokens as they have sufficient contrast for colorblindness
       // themes, even though they don't really match the functional intent here.
-      "vim.mode.text": tokens['fgColor/default'],
+      "vim.mode.text": tokens['fgColor/onEmphasis'],
       "vim.normal.background": tokens['bgColor/neutral-emphasis'],
       "vim.helix_normal.background": tokens['bgColor/neutral-emphasis'],
       "vim.visual.background": tokens['bgColor/accent-emphasis'],
