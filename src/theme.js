@@ -195,9 +195,9 @@ export function getTheme({ themeKey, name, type }) {
 
       "scrollbar.thumb.border": tokens['borderColor/transparent'],
       "scrollbar.thumb.hover_background": alpha('bgColor/neutral-emphasis', type === 'light' ? 0.2 : 0.4),
+      "scrollbar.thumb.background": alpha('bgColor/neutral-emphasis', type === 'light' ? 0.1 : 0.3),
       "scrollbar.track.background": tokens['bgColor/transparent'],
       "scrollbar.track.border": tokens['borderColor/transparent'],
-      "scrollbar_thumb.background": alpha('bgColor/neutral-emphasis', type === 'light' ? 0.1 : 0.3),
 
       "search.match_background": alpha("base/color/yellow/1", 0.3),
 
