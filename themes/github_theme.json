@@ -1,11 +1,11 @@
 {
   "$schema": "https://zed.dev/schema/themes/v0.1.0.json",
-  "name": "Github Theme",
+  "name": "GitHub Theme",
   "author": "Pyae Sone Aung",
   "themes": [
     {
       "appearance": "light",
-      "name": "Github Light",
+      "name": "GitHub Light",
       "style": {
         "accents": [
           "#006edbff",
@@ -428,7 +428,7 @@
     },
     {
       "appearance": "light",
-      "name": "Github Light Colorblind",
+      "name": "GitHub Light Colorblind",
       "style": {
         "accents": [
           "#006edbff",
@@ -837,7 +837,7 @@
     },
     {
       "appearance": "light",
-      "name": "Github Light High Contrast",
+      "name": "GitHub Light High Contrast",
       "style": {
         "accents": [
           "#006edbff",
@@ -1260,7 +1260,7 @@
     },
     {
       "appearance": "light",
-      "name": "Github Light Tritanopia",
+      "name": "GitHub Light Tritanopia",
       "style": {
         "accents": [
           "#179b9bff",
@@ -1671,7 +1671,7 @@
     },
     {
       "appearance": "dark",
-      "name": "Github Dark",
+      "name": "GitHub Dark",
       "style": {
         "accents": [
           "#0576ffff",
@@ -2094,7 +2094,7 @@
     },
     {
       "appearance": "dark",
-      "name": "Github Dark Colorblind",
+      "name": "GitHub Dark Colorblind",
       "style": {
         "accents": [
           "#0576ffff",
@@ -2503,7 +2503,7 @@
     },
     {
       "appearance": "dark",
-      "name": "Github Dark High Contrast",
+      "name": "GitHub Dark High Contrast",
       "style": {
         "accents": [
           "#0576ffff",
@@ -2926,7 +2926,7 @@
     },
     {
       "appearance": "dark",
-      "name": "Github Dark Tritanopia",
+      "name": "GitHub Dark Tritanopia",
       "style": {
         "accents": [
           "#106c70ff",
@@ -3337,7 +3337,7 @@
     },
     {
       "appearance": "dark",
-      "name": "Github Dark Dimmed",
+      "name": "GitHub Dark Dimmed",
       "style": {
         "accents": [
           "#0576ffff",

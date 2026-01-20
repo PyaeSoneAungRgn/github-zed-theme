@@ -3,18 +3,18 @@ import { getTheme } from './theme.js'
 
 const writeData = {
   "$schema": "https://zed.dev/schema/themes/v0.1.0.json",
-  "name": "Github Theme",
+  "name": "GitHub Theme",
   "author": "Pyae Sone Aung",
   "themes": [
-    getTheme({ themeKey: 'light', name: "Github Light", type: 'light' }),
-    getTheme({ themeKey: 'light_colorblind', name: "Github Light Colorblind", type: 'light' }),
-    getTheme({ themeKey: 'light_high_contrast', name: "Github Light High Contrast", type: 'light' }),
-    getTheme({ themeKey: 'light_tritanopia', name: "Github Light Tritanopia", type: 'light' }),
-    getTheme({ themeKey: 'dark', name: "Github Dark", type: 'dark' }),
-    getTheme({ themeKey: 'dark_colorblind', name: "Github Dark Colorblind", type: 'dark' }),
-    getTheme({ themeKey: 'dark_high_contrast', name: "Github Dark High Contrast", type: 'dark' }),
-    getTheme({ themeKey: 'dark_tritanopia', name: "Github Dark Tritanopia", type: 'dark' }),
-    getTheme({ themeKey: 'dark_dimmed', name: "Github Dark Dimmed", type: 'dark' }),
+    getTheme({ themeKey: 'light', name: "GitHub Light", type: 'light' }),
+    getTheme({ themeKey: 'light_colorblind', name: "GitHub Light Colorblind", type: 'light' }),
+    getTheme({ themeKey: 'light_high_contrast', name: "GitHub Light High Contrast", type: 'light' }),
+    getTheme({ themeKey: 'light_tritanopia', name: "GitHub Light Tritanopia", type: 'light' }),
+    getTheme({ themeKey: 'dark', name: "GitHub Dark", type: 'dark' }),
+    getTheme({ themeKey: 'dark_colorblind', name: "GitHub Dark Colorblind", type: 'dark' }),
+    getTheme({ themeKey: 'dark_high_contrast', name: "GitHub Dark High Contrast", type: 'dark' }),
+    getTheme({ themeKey: 'dark_tritanopia', name: "GitHub Dark Tritanopia", type: 'dark' }),
+    getTheme({ themeKey: 'dark_dimmed', name: "GitHub Dark Dimmed", type: 'dark' }),
   ]
 }
 
