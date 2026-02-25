@@ -258,14 +258,21 @@ export function getTheme({ themeKey, name, type }) {
 
       // Using functional tokens as they have sufficient contrast for colorblindness
       // themes, even though they don't really match the functional intent here.
-      "vim.mode.text": tokens['fgColor/onEmphasis'],
+      "vim.normal.foreground": tokens['fgColor/onEmphasis'],
       "vim.normal.background": tokens['bgColor/neutral-emphasis'],
+      "vim.helix_normal.foreground": tokens['fgColor/onEmphasis'],
       "vim.helix_normal.background": tokens['bgColor/neutral-emphasis'],
+      "vim.visual.foreground": tokens['fgColor/onEmphasis'],
       "vim.visual.background": tokens['bgColor/accent-emphasis'],
+      "vim.helix_select.foreground": tokens['fgColor/onEmphasis'],
       "vim.helix_select.background": tokens['bgColor/accent-emphasis'],
+      "vim.insert.foreground": tokens['fgColor/onEmphasis'],
       "vim.insert.background": tokens['bgColor/success-emphasis'],
+      "vim.visual_line.foreground": tokens['fgColor/onEmphasis'],
       "vim.visual_line.background": tokens['bgColor/accent-emphasis'],
+      "vim.visual_block.foreground": tokens['fgColor/onEmphasis'],
       "vim.visual_block.background": tokens['bgColor/done-emphasis'],
+      "vim.replace.foreground": tokens['fgColor/onEmphasis'],
       "vim.replace.background": tokens['bgColor/sponsors-emphasis'],
 
       "warning": tokens['fgColor/attention'],
