@@ -250,6 +250,9 @@ export function getTheme({ themeKey, name, type }) {
       "text.placeholder": tokens['fgColor/muted'],
 
       "title_bar.background": tokens['bgColor/inset'],
+      "title_bar.inactive_background": tokens['bgColor/default'] === tokens['bgColor/inset']
+        ? tokens['bgColor/muted']
+        : tokens['bgColor/default'],
       "toolbar.background": tokens['bgColor/default'],
 
       "unreachable": tokens['fgColor/disabled'],
