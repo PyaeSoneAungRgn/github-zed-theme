@@ -156,8 +156,8 @@ export function getTheme({ themeKey, name, type }) {
       "hidden.border": tokens['borderColor/disabled'],
 
       "hint": tokens['fgColor/muted'],
-      "hint.background": tokens['bgColor/muted'],
-      "hint.border": tokens['borderColor/muted'],
+      "hint.background": tokens['bgColor/neutral-muted'],
+      "hint.border": tokens['borderColor/neutral-muted'],
 
       "icon": tokens['fgColor/default'],
       "icon.background": tokens['bgColor/default'],
@@ -171,9 +171,9 @@ export function getTheme({ themeKey, name, type }) {
       "ignored.background": tokens['bgColor/disabled'],
       "ignored.border": tokens['borderColor/disabled'],
 
-      "info": tokens['fgColor/attention'],
-      "info.background": tokens['bgColor/muted'],
-      "info.border": tokens['borderColor/muted'],
+      "info": tokens['fgColor/accent'],
+      "info.background": tokens['bgColor/accent-muted'],
+      "info.border": tokens['borderColor/accent-muted'],
 
       "link_text.hover": tokens['fgColor/link'],
 
@@ -279,8 +279,8 @@ export function getTheme({ themeKey, name, type }) {
       "vim.replace.background": tokens['bgColor/sponsors-emphasis'],
 
       "warning": tokens['fgColor/attention'],
-      "warning.background": tokens['bgColor/muted'],
-      "warning.border": tokens['borderColor/muted'],
+      "warning.background": tokens['bgColor/attention-muted'],
+      "warning.border": tokens['borderColor/attention-muted'],
 
       "players":
         spectrum.map(color => ({
