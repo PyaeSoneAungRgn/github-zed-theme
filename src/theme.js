@@ -171,7 +171,7 @@ export function getTheme({ themeKey, name, type }) {
       "icon.accent": tokens['fgColor/accent'],
       "icon.muted": tokens['fgColor/muted'],
       "icon.disabled": tokens['fgColor/disabled'],
-      "icon.placeholder": tokens['fgColor/fgColor/muted'],
+      "icon.placeholder": tokens['fgColor/muted'],
 
       "ignored": tokens['fgColor/muted'],
       "ignored.background": tokens['bgColor/disabled'],
