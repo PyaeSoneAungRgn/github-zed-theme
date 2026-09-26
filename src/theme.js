@@ -71,7 +71,7 @@ export function getTheme({ themeKey, name, type }) {
     // thorough approach with input from colorblind users would be better.
     spectrum = [
       "blue",
-      "cyan",
+      "teal",
       "yellow",
       "pink",
     ];
@@ -92,7 +92,13 @@ export function getTheme({ themeKey, name, type }) {
     appearance: type,
     name,
     style: {
-      accents: spectrum.map(color => tokens[`data/${color}/color/emphasis`]),
+      accents: spectrum.map(color => {
+        if (themeKey.includes('colorblind') || themeKey.includes('tritanopia')) {
+          return tokens[`data/${color}/color/emphasis`]
+        }
+
+        return lightDark(`base/color/${color}/5`, `base/color/${color}/2`)
+      }),
 
       "background.appearance": "opaque",
 

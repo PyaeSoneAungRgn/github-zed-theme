@@ -8,12 +8,12 @@
       "name": "GitHub Light",
       "style": {
         "accents": [
-          "#006edbff",
-          "#30a147ff",
-          "#b88700ff",
-          "#df0c24ff",
-          "#ce2c85ff",
-          "#894cebff"
+          "#0969daff",
+          "#1a7f37ff",
+          "#9a6700ff",
+          "#cf222eff",
+          "#bf3989ff",
+          "#8250dfff"
         ],
         "background.appearance": "opaque",
         "background": "#ffffffff",
@@ -440,7 +440,7 @@
       "style": {
         "accents": [
           "#006edbff",
-          null,
+          "#179b9bff",
           "#b88700ff",
           "#ce2c85ff"
         ],
@@ -599,7 +599,9 @@
             "selection": "#006edb66"
           },
           {
-            "selection": null
+            "cursor": "#179b9bff",
+            "background": "#179b9bff",
+            "selection": "#179b9b66"
           },
           {
             "cursor": "#b88700ff",
@@ -856,12 +858,12 @@
       "name": "GitHub Light High Contrast",
       "style": {
         "accents": [
-          "#006edbff",
-          "#30a147ff",
-          "#b88700ff",
-          "#df0c24ff",
-          "#ce2c85ff",
-          "#894cebff"
+          "#0349b4ff",
+          "#055d20ff",
+          "#744500ff",
+          "#a0111fff",
+          "#971368ff",
+          "#622cbcff"
         ],
         "background.appearance": "opaque",
         "background": "#ffffffff",
@@ -1706,12 +1708,12 @@
       "name": "GitHub Dark",
       "style": {
         "accents": [
-          "#0576ffff",
-          "#2f6f37ff",
-          "#895906ff",
-          "#eb3342ff",
-          "#d34591ff",
-          "#975bf1ff"
+          "#79c0ffff",
+          "#56d364ff",
+          "#e3b341ff",
+          "#ffa198ff",
+          "#ff9bceff",
+          "#d2a8ffff"
         ],
         "background.appearance": "opaque",
         "background": "#0d1117ff",
@@ -2138,7 +2140,7 @@
       "style": {
         "accents": [
           "#0576ffff",
-          null,
+          "#106c70ff",
           "#895906ff",
           "#d34591ff"
         ],
@@ -2297,7 +2299,9 @@
             "selection": "#0576ff66"
           },
           {
-            "selection": null
+            "cursor": "#106c70ff",
+            "background": "#106c70ff",
+            "selection": "#106c7066"
           },
           {
             "cursor": "#895906ff",
@@ -2554,12 +2558,12 @@
       "name": "GitHub Dark High Contrast",
       "style": {
         "accents": [
-          "#0576ffff",
-          "#2f6f37ff",
-          "#895906ff",
-          "#eb3342ff",
-          "#d34591ff",
-          "#975bf1ff"
+          "#91cbffff",
+          "#4ae168ff",
+          "#f7c843ff",
+          "#ffb1afff",
+          "#ffadd4ff",
+          "#dbb7ffff"
         ],
         "background.appearance": "opaque",
         "background": "#010409ff",
@@ -3404,12 +3408,12 @@
       "name": "GitHub Dark Dimmed",
       "style": {
         "accents": [
-          "#0576ffff",
-          "#2f6f37ff",
-          "#895906ff",
-          "#eb3342ff",
-          "#d34591ff",
-          "#975bf1ff"
+          "#6cb6ffff",
+          "#6bc46dff",
+          "#daaa3fff",
+          "#ff938aff",
+          "#fc8dc7ff",
+          "#dcbdfbff"
         ],
         "background.appearance": "opaque",
         "background": "#212830ff",
