@@ -2,7 +2,7 @@ import fs from 'node:fs/promises'
 import { getTheme } from './theme.js'
 
 const writeData = {
-  "$schema": "https://zed.dev/schema/themes/v0.1.0.json",
+  "$schema": "https://zed.dev/schema/themes/v0.2.0.json",
   "name": "GitHub Theme",
   "author": "Pyae Sone Aung",
   "themes": [
