@@ -1,3 +1,4 @@
+import { withAlpha } from "./color.js";
 import { getColorTokens } from "./tokens.js";
 
 
@@ -30,29 +31,13 @@ export function getTheme({ themeKey, name, type }) {
       return null;
     }
 
-    const hexAlpha = Math.round(alphaValue * 255).toString(16).padStart(2, '0');
-
-    // Remove the '#' if present
-    let color = baseToken.replace('#', '');
-
-    // If it's already an 8-digit HEXA, replace the last two characters
-    if (color.length === 8) {
-      color = color.slice(0, 6) + hexAlpha;
-    }
-    // If it's a 6-digit HEX, append the new alpha
-    else if (color.length === 6) {
-      color += hexAlpha;
-    }
-    // If it's a 3-digit HEX, expand it and append the new alpha
-    else if (color.length === 3) {
-      color = color.split('').map(char => char + char).join('') + hexAlpha;
-    }
-    else {
+    const color = withAlpha(baseToken, alphaValue);
+    if (!color) {
       console.warn(`Invalid color format for token '${tokenName}': ${baseToken}`);
       return baseToken;
     }
 
-    return '#' + color;
+    return color;
   }
 
   let spectrum = [
